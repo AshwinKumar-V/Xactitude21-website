@@ -81,9 +81,10 @@
   background-color: transparent;
   height: 140px;
   left: 536px;
-  position: absolute;
+  position: fixed;
   top: 400px;
   width: 847px;
+
 }
 .signin .email-id-1 {
   background-color: transparent;
@@ -117,7 +118,7 @@
   background-color: transparent;
   height: 140px;
   left: 536px;
-  position: absolute;
+  position: fixed;
   top: 606px;
   width: 847px;
 }
