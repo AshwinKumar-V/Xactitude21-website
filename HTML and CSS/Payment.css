@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "LEMONMILK-Medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url("Fonts/LEMONMILK-Medium.otf");
+}
+
+@font-face {
+    font-family: "LEMONMILK-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("Fonts/LEMONMILK-Regular.otf");
+}
+
+@font-face {
+    font-family: "LEMONMILK-Light";
+    font-style: normal;
+    font-weight: 300;
+    src: url("Fonts/LEMONMILK-Light.otf");
+}
+
+@font-face {
+    font-family: "LEMONMILK-Bold";
+    font-style: normal;
+    font-weight: 300;
+    src: url("Fonts/LEMONMILK-Bold.otf");
+}
+
+* {
+  box-sizing: border-box;
+}
+.lemonmilk-bold-black-100px {
+  color: black;
+  font-family: "LEMONMILK-Bold", Helvetica, Arial, serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+}
+.lemonmilk-light-black-100px {
+  color: black;
+  font-family: "LEMONMILK-Light", Helvetica, Arial, serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 300;
+}
+.lemonmilk-light-black-30px {
+  color: black;
+  font-family: "LEMONMILK-Light", Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+}
+.lemonmilk-regular-normal-black-34px {
+  color: black;
+  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+}
+.lemonmilk-regular-normal-blaze-orange-52px {
+  color: var(--blaze-orange);
+  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+}
+.payment {
+  background-color: white;
+  height: 1079px;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+.payment .line1 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 142px;
+  width: 787px;
+}
+.payment .payment {
+  background-color: transparent;
+  height: auto;
+  left: 711px;
+  letter-spacing: 0px;
+  line-height: 100px;
+  position: absolute;
+  text-align: left;
+  top: 114px;
+  white-space: nowrap;
+  width: auto;
+}
+.payment .proceed {
+  background-color: transparent;
+  border: 5px solid var(--jacaranda);
+  border-radius: 104px;
+  height: 143px;
+  left: 1362px;
+  position: fixed;
+  top: 846px;
+  width: 442px;
+}
+.payment .proceed-1 {
+  background-color: transparent;
+  height: auto;
+  left: 95px;
+  letter-spacing: 0px;
+  line-height: 52px;
+  position: absolute;
+  text-align: left;
+  top: 46px;
+  white-space: nowrap;
+  width: auto;
+}
+.payment .skip-to-pay-later {
+  background-color: transparent;
+  height: auto;
+  left: 1428px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 780px;
+  white-space: nowrap;
+  width: auto;
+}
+.payment .trans-id {
+  background-color: transparent;
+  height: 142px;
+  left: 131px;
+  position: absolute;
+  top: 832px;
+  width: 788px;
+}
+.payment .trans-id-1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.payment .transactiondetails {
+  background-color: transparent;
+  height: auto;
+  left: 145px;
+  letter-spacing: 0px;
+  line-height: 100px;
+  position: absolute;
+  text-align: left;
+  top: 396px;
+  white-space: nowrap;
+  width: auto;
+}
+:root {
+  --blaze-orange: rgba(255, 102, 0, 1);
+  --jacaranda: rgba(33, 0, 38, 1);
+}
