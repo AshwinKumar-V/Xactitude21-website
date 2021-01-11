@@ -1,0 +1,370 @@
+@font-face {
+    font-family: "LEMONMILK-Medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url("Fonts/LEMONMILK-Medium.otf");
+}
+
+@font-face {
+    font-family: "LEMONMILK-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("Fonts/LEMONMILK-Regular.otf");
+}
+
+@font-face {
+    font-family: "LEMONMILK-Light";
+    font-style: normal;
+    font-weight: 300;
+    src: url("Fonts/LEMONMILK-Light.otf");
+}
+
+* {
+  box-sizing: border-box;
+}
+.lemonmilk-bold-black-100px {
+  color: black;
+  font-family: "LEMONMILK-Bold", Helvetica, Arial, serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+}
+.lemonmilk-light-blue-ribbon-30px {
+  color: var(--blue-ribbon);
+  font-family: "LEMONMILK-Light", Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+}
+.lemonmilk-regular-normal-black-34px {
+  color: black;
+  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+}
+.lemonmilk-regular-normal-blaze-orange-52px {
+  color: var(--blaze-orange);
+  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+}
+.signup {
+  background-color: white;
+  height: 1909px;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+.signup .banner {
+  background-color: white;
+  height: 250px;
+  left: -1px;
+  position: fixed;
+  top: 0px;
+  width: 1920px;
+}
+.signup .city {
+  background-color: transparent;
+  height: 128px;
+  left: 142px;
+  position: absolute;
+  top: 1107px;
+  width: 711px;
+}
+.signup .city-1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.signup .college {
+  background-color: transparent;
+  height: 125px;
+  left: 142px;
+  position: absolute;
+  top: 942px;
+  width: 711px;
+}
+.signup .college-1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.signup .confirm-password {
+  background-color: transparent;
+  height: 134px;
+  left: 142px;
+  position: absolute;
+  top: 1608px;
+  width: 711px;
+}
+.signup .confirm-password-1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.signup .email-id {
+  background-color: transparent;
+  height: 122px;
+  left: 142px;
+  position: absolute;
+  top: 623px;
+  width: 711px;
+}
+.signup .email-id-1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.signup .first-name {
+  background-color: transparent;
+  height: 117px;
+  left: 142px;
+  position: absolute;
+  top: 315px;
+  width: 711px;
+}
+.signup .first-name-1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.signup .home-icon {
+  background-color: transparent;
+  height: 70px;
+  left: 59px;
+  position: fixed;
+  top: 47px;
+  width: 65px;
+}
+.signup .last-name {
+  background-color: transparent;
+  height: 111px;
+  left: 142px;
+  position: absolute;
+  top: 472px;
+  width: 711px;
+}
+.signup .lastname {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.signup .line1 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 133px;
+  width: 711px;
+}
+.signup .line1-1 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 116px;
+  width: 711px;
+}
+.signup .line1-2 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 131px;
+  width: 711px;
+}
+.signup .line1-3 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 122px;
+  width: 711px;
+}
+.signup .line1-4 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 127px;
+  width: 711px;
+}
+.signup .line1-5 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 124px;
+  width: 711px;
+}
+.signup .line1-6 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 121px;
+  width: 711px;
+}
+.signup .line1-7 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 110px;
+  width: 711px;
+}
+.signup .password {
+  background-color: transparent;
+  height: 131px;
+  left: 142px;
+  position: absolute;
+  top: 1437px;
+  width: 711px;
+}
+.signup .password-1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.signup .phone {
+  background-color: transparent;
+  height: 117px;
+  left: 142px;
+  position: absolute;
+  top: 785px;
+  width: 711px;
+}
+.signup .phone-1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.signup .sign-btn {
+  background-color: transparent;
+  border: 5px solid var(--jacaranda);
+  border-radius: 104px;
+  height: 629px;
+  left: 1299px;
+  position: fixed;
+  top: 319px;
+  width: 442px;
+}
+.signup .sign-btn-1 {
+  background-color: transparent;
+  height: auto;
+  left: 94px;
+  letter-spacing: 0px;
+  line-height: 52px;
+  position: absolute;
+  text-align: left;
+  top: 296px;
+  white-space: nowrap;
+  width: auto;
+}
+.signup .sign-in {
+  background-color: transparent;
+  height: auto;
+  left: 736px;
+  letter-spacing: 0px;
+  line-height: 100px;
+  position: absolute;
+  text-align: left;
+  top: 98px;
+  white-space: nowrap;
+  width: auto;
+}
+.signup .state {
+  background-color: transparent;
+  height: 122px;
+  left: 142px;
+  position: absolute;
+  top: 1275px;
+  width: 711px;
+}
+.signup .state-1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.signup .text-1 {
+  background-color: transparent;
+  height: auto;
+  left: 1254px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  position: fixed;
+  text-align: left;
+  top: 990px;
+  white-space: nowrap;
+  width: auto;
+}
+:root {
+  --blaze-orange: rgba(255, 102, 0, 1);
+  --blue-ribbon: rgba(0, 73, 243, 1);
+  --jacaranda: rgba(33, 0, 38, 1);
+}
