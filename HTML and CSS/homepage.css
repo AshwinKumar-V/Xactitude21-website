@@ -78,7 +78,7 @@ body {
     white-space: nowrap;
     width: auto;
     color: white;
-    font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
+    font-family: "LEMONMILK-Regular";
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -121,7 +121,7 @@ body {
     white-space: nowrap;
     width: auto;
     color: white;
-    font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
+    font-family: "LEMONMILK-Regular";
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -264,7 +264,7 @@ body {
     white-space: nowrap;
     width: auto;
     color: white;
-    font-family: "LEMONMILK-Medium", Helvetica, Arial, serif;
+    font-family: "LEMONMILK-Medium";
     font-size: 117px;
     font-style: normal;
     font-weight: 500;
