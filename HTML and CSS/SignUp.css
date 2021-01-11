@@ -19,6 +19,13 @@
     src: url("Fonts/LEMONMILK-Light.otf");
 }
 
+@font-face {
+    font-family: "LEMONMILK-Bold";
+    font-style: normal;
+    font-weight: 300;
+    src: url("Fonts/LEMONMILK-Bold.otf");
+}
+
 * {
   box-sizing: border-box;
 }
