@@ -1,0 +1,11 @@
+ID for form elements of SignUp page
+---------------------------
+first-name  =	fname
+last-name   = 	lname
+email-id    = 	email
+phone	    =	phno
+college	    = 	clg
+city	    =	city
+state	    =	state
+password    =	pwd
+confirm-pass=	cpwd

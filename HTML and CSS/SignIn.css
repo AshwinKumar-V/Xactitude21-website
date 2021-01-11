@@ -52,9 +52,11 @@ body {
   background-color: transparent;
   height: 140px;
   left: 536px;
-  position: absolute;
+  position: fixed;
   top: 400px;
   width: 847px;
+  font-size: large;
+
 }
 .email-id {
   background-color: transparent;
@@ -92,7 +94,7 @@ body {
   background-color: transparent;
   height: 140px;
   left: 536px;
-  position: absolute;
+  position: fixed;
   top: 606px;
   width: 847px;
 }
