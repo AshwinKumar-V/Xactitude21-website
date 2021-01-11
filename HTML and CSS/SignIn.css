@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "LEMONMILK-Medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url("Fonts/LEMONMILK-Medium.otf");
+}
+
+@font-face {
+    font-family: "LEMONMILK-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("Fonts/LEMONMILK-Regular.otf");
+}
+
+@font-face {
+    font-family: "LEMONMILK-Light";
+    font-style: normal;
+    font-weight: 300;
+    src: url("Fonts/LEMONMILK-Light.otf");
+}
+
+* {
+  box-sizing: border-box;
+}
+.lemonmilk-bold-black-100px {
+  color: black;
+  font-family: "LEMONMILK-Bold", Helvetica, Arial, serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+}
+.lemonmilk-regular-normal-black-40px {
+  color: black;
+  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
+.lemonmilk-regular-normal-blaze-orange-52px {
+  color: var(--blaze-orange);
+  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+}
+.lemonmilk-regular-normal-ocean-blue-pearl-30px {
+  color: var(--ocean-blue-pearl);
+  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+.signin {
+  background-color: white;
+  height: 1081px;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+.signin .banner {
+  background-color: white;
+  height: 313px;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 1920px;
+}
+.signin .create-new-account {
+  background-color: transparent;
+  height: auto;
+  left: 775px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 816px;
+  white-space: nowrap;
+  width: auto;
+}
+.signin .email-id {
+  background-color: transparent;
+  height: 140px;
+  left: 536px;
+  position: absolute;
+  top: 400px;
+  width: 847px;
+}
+.signin .email-id-1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 40px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.signin .home-icon {
+  background-color: transparent;
+  height: 70px;
+  left: 59px;
+  position: fixed;
+  top: 47px;
+  width: 65px;
+}
+.signin .line {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 140px;
+  width: 847px;
+}
+.signin .password {
+  background-color: transparent;
+  height: 140px;
+  left: 536px;
+  position: absolute;
+  top: 606px;
+  width: 847px;
+}
+.signin .password-1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 40px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.signin .sign-btn {
+  background-color: transparent;
+  border: 5px solid var(--jacaranda);
+  border-radius: 58px;
+  height: 116px;
+  left: 739px;
+  position: absolute;
+  top: 879px;
+  width: 442px;
+}
+.signin .sign-btn-1 {
+  background-color: transparent;
+  height: auto;
+  left: 94px;
+  letter-spacing: 0px;
+  line-height: 52px;
+  position: absolute;
+  text-align: left;
+  top: 32px;
+  white-space: nowrap;
+  width: auto;
+}
+.signin .sign-in {
+  background-color: transparent;
+  height: auto;
+  left: 751px;
+  letter-spacing: 0px;
+  line-height: 100px;
+  position: fixed;
+  text-align: left;
+  top: 154px;
+  white-space: nowrap;
+  width: auto;
+}
+:root {
+  --blaze-orange: rgba(255, 102, 0, 1);
+  --jacaranda: rgba(33, 0, 38, 1);
+  --ocean-blue-pearl: rgba(84, 65, 219, 1);
+}
