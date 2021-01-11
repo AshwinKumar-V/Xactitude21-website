@@ -200,68 +200,12 @@
   white-space: nowrap;
   width: auto;
 }
-.signup .line1 {
+.line{
   background-color: transparent;
-  height: 1px;
+  height: 80px;
   left: 0px;
   position: absolute;
-  top: 133px;
-  width: 711px;
-}
-.signup .line1-1 {
-  background-color: transparent;
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 116px;
-  width: 711px;
-}
-.signup .line1-2 {
-  background-color: transparent;
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 131px;
-  width: 711px;
-}
-.signup .line1-3 {
-  background-color: transparent;
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 122px;
-  width: 711px;
-}
-.signup .line1-4 {
-  background-color: transparent;
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 127px;
-  width: 711px;
-}
-.signup .line1-5 {
-  background-color: transparent;
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 124px;
-  width: 711px;
-}
-.signup .line1-6 {
-  background-color: transparent;
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 121px;
-  width: 711px;
-}
-.signup .line1-7 {
-  background-color: transparent;
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 110px;
+  top:60px;
   width: 711px;
 }
 .signup .password {
