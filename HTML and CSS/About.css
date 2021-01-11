@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "LEMONMILK-Medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url("Fonts/LEMONMILK-Medium.otf");
+}
+
+@font-face {
+    font-family: "LEMONMILK-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("Fonts/LEMONMILK-Regular.otf");
+}
+
+@font-face {
+    font-family: "LEMONMILK-Light";
+    font-style: normal;
+    font-weight: 300;
+    src: url("Fonts/LEMONMILK-Light.otf");
+}
+
+* {
+  box-sizing: border-box;
+}
+.about {
+  background-color: white;
+  height: 4415px;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+.about .college {
+  background-color: transparent;
+  height: auto;
+  left: 565px;
+  letter-spacing: 0px;
+  line-height: 125px;
+  position: absolute;
+  text-align: left;
+  top: 2550px;
+  white-space: nowrap;
+  width: auto;
+}
+.about .college-logo {
+  background-color: transparent;
+  height: auto;
+  left: 77px;
+  letter-spacing: 0px;
+  line-height: 77px;
+  position: absolute;
+  text-align: left;
+  top: 60px;
+  white-space: nowrap;
+  width: auto;
+}
+.about .contact {
+  background-color: var(--jacaranda);
+  height: 1125px;
+  left: 0px;
+  position: absolute;
+  top: 3290px;
+  width: 1920px;
+}
+.about .contact-1 {
+  background-color: transparent;
+  height: auto;
+  left: 791px;
+  letter-spacing: 0px;
+  line-height: 69px;
+  position: absolute;
+  text-align: left;
+  top: 68px;
+  white-space: nowrap;
+  width: auto;
+}
+.about .dept {
+  background-color: var(--soft-peach);
+  height: 760px;
+  left: 0px;
+  position: absolute;
+  top: 1385px;
+  width: 1920px;
+}
+.about .dept-1 {
+  background-color: transparent;
+  height: auto;
+  left: 442px;
+  letter-spacing: 0px;
+  line-height: 125px;
+  position: absolute;
+  text-align: left;
+  top: 318px;
+  white-space: nowrap;
+  width: auto;
+}
+.about .fest {
+  background-color: transparent;
+  height: auto;
+  left: 662px;
+  letter-spacing: 0px;
+  line-height: 125px;
+  position: absolute;
+  text-align: left;
+  top: 856px;
+  white-space: nowrap;
+  width: auto;
+}
+.about .home-icon {
+  background-color: transparent;
+  height: 59px;
+  left: 1809px;
+  position: absolute;
+  top: 64px;
+  width: 49px;
+}
+.about .sign-in {
+  background-color: transparent;
+  height: auto;
+  left: 1609px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  position: absolute;
+  text-align: left;
+  top: 82px;
+  white-space: nowrap;
+  width: auto;
+}
+.about .sign-up {
+  background-color: var(--blaze-orange);
+  border-radius: 67px;
+  height: 69px;
+  left: 1360px;
+  position: absolute;
+  top: 64px;
+  width: 200px;
+}
+.about .sign-up-1 {
+  background-color: transparent;
+  height: auto;
+  left: 31px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  position: absolute;
+  text-align: left;
+  top: 18px;
+  white-space: nowrap;
+  width: auto;
+}
+.about .title {
+  background-color: var(--jacaranda);
+  height: 699px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+.about .xactitude21 {
+  background-color: transparent;
+  height: auto;
+  left: 516px;
+  letter-spacing: 0px;
+  line-height: 117px;
+  position: absolute;
+  text-align: left;
+  top: 298px;
+  white-space: nowrap;
+  width: auto;
+}
+.lemonmilk-light-white-77px {
+  color: white;
+  font-family: "LEMONMILK-Light", Helvetica, Arial, serif;
+  font-size: 77px;
+  font-style: normal;
+  font-weight: 300;
+}
+.lemonmilk-medium-white-117px {
+  color: white;
+  font-family: "LEMONMILK-Medium", Helvetica, Arial, serif;
+  font-size: 117px;
+  font-style: normal;
+  font-weight: 500;
+}
+.lemonmilk-regular-normal-white-33px {
+  color: white;
+  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400;
+}
+.lemonmilk-regular-normal-white-69px {
+  color: white;
+  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
+  font-size: 69px;
+  font-style: normal;
+  font-weight: 400;
+}
+.segoeui-regular-normal-black-125px {
+  color: black;
+  font-family: "SegoeUI-Regular", Helvetica, Arial, serif;
+  font-size: 125px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --blaze-orange: rgba(255, 102, 0, 1);
+  --jacaranda: rgba(33, 0, 38, 1);
+  --soft-peach: rgba(242, 234, 239, 1);
+}
