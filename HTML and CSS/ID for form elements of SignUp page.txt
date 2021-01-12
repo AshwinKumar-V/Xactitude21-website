@@ -9,3 +9,12 @@ city	    =	city
 state	    =	state
 password    =	pwd
 confirm-pass=	cpwd
+
+ID for buttons on Register page
+--------------------------------------
+PHYSICS =   phybtn
+MATH    =   matbtn
+C&D     =   cdbtn
+ELECTRON=   elebtn
+IT QUIZ =   itbtn
+STATS   =   statbtn
