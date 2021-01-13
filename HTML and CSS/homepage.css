@@ -49,6 +49,9 @@ a, a:hover, a:active, a:focus, a:visited{
     font-family: "LEMONMILK-Light";
     font-size: 77px;
 }
+.college-logo img{
+    height: 90px;
+}
 .sign-up-box {
     background-color: var(--blaze-orange);
     border-radius: 67px;
