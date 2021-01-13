@@ -18,28 +18,31 @@
     font-weight: 300;
     src: url("Fonts/LEMONMILK-Light.otf");
 }
-
+:root {
+    --blaze-orange: rgba(255, 102, 0, 1);
+    --cinnabar: rgba(239, 54, 54, 1);
+    --dove-gray: rgba(112, 112, 112, 1);
+    --jacaranda: rgba(33, 0, 38, 1);
+    --soft-peach: rgba(242, 234, 239, 1);
+}
 * {
     margin:0;
     box-sizing: border-box;
-}
-.animate-enter {
-    animation: animate-enter-frames 0.8s ease 0s 1 normal forwards;
-    display: block;
-    opacity: 0;
-    transform: translate(-80px, 0);
-}
-.animate-enter1 {
-    animation: animate-enter1-frames 1.2s ease 1s 1 normal forwards;
-    display: block;
-    opacity: 0;
-    transform: translate(0, 150px);
 }
 body {
     background-color: white;
     height: 4339px;
     position: relative;
     width: 1920px;
+}
+.title {
+    background-color: var(--jacaranda);
+    border: 1px solid var(--dove-gray);
+    height: 1096px;
+    left: -21px;
+    position: absolute;
+    top: -19px;
+    width: 1952px;
 }
 .college-logo {
     background-color: transparent;
@@ -57,118 +60,6 @@ body {
     font-size: 77px;
     font-style: normal;
     font-weight: 300;
-}
-.contact {
-    background-color: var(--jacaranda);
-    height: 66px;
-    left: 0px;
-    position: absolute;
-    top: 4275px;
-    width: 1920px;
-}
-.contact-us {
-    background-color: transparent;
-    height: auto;
-    left: 1625px;
-    letter-spacing: 0px;
-    line-height: 32px;
-    position: absolute;
-    text-align: left;
-    top: 18px;
-    white-space: nowrap;
-    width: auto;
-    color: white;
-    font-family: "LEMONMILK-Regular";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-}
-.event{
-    background-color: transparent;
-    height: auto;
-    left: 806px;
-    letter-spacing: 0px;
-    line-height: 128px;
-    position: absolute;
-    text-align: left;
-    top: 432px;
-    white-space: nowrap;
-    width: auto;
-    color: black;
-    font-family: "LEMONMILK-Light";
-    font-size: 128px;
-    font-style: normal;
-    font-weight: 400;
-}
-.event-box {
-    background-color: var(--soft-peach);
-    height: 1313px;
-    left: 0px;
-    position: absolute;
-    top: 2412px;
-    width: 1920px;
-}
-
-.learn-more {
-    background-color: transparent;
-    height: auto;
-    left: 96px;
-    letter-spacing: 0px;
-    line-height: 30px;
-    position: absolute;
-    text-align: left;
-    top: 18px;
-    white-space: nowrap;
-    width: auto;
-    color: white;
-    font-family: "LEMONMILK-Regular";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-}
-.register-box {
-    background-color: var(--cinnabar);
-    border-radius: 167px;
-    height: 196px;
-    left: 267px;
-    position: absolute;
-    top: 1300px;
-    width: 1408px;
-}
-.register {
-    background-color: transparent;
-    height: auto;
-    left: 538px;
-    letter-spacing: 0px;
-    line-height: 60px;
-    position: absolute;
-    text-align: left;
-    top: 68px;
-    white-space: nowrap;
-    width: auto;
-    color:white;
-    font-family: "LEMONMILK-Regular";
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.sign-in {
-    background-color: transparent;
-    height: auto;
-    left: 1674px;
-    letter-spacing: 0px;
-    line-height: 33px;
-    position: absolute;
-    text-align: left;
-    top: 102px;
-    white-space: nowrap;
-    width: auto;
-    color: white;
-    font-family: "LEMONMILK-Regular";
-    font-size: 33px;
-    font-style: normal;
-    font-weight: 400;
 }
 .sign-up-box {
     background-color: var(--blaze-orange);
@@ -196,7 +87,40 @@ body {
     font-style: normal;
     font-weight: 400;
 }
-
+.sign-in {
+    background-color: transparent;
+    height: auto;
+    left: 1674px;
+    letter-spacing: 0px;
+    line-height: 33px;
+    position: absolute;
+    text-align: left;
+    top: 102px;
+    white-space: nowrap;
+    width: auto;
+    color: white;
+    font-family: "LEMONMILK-Regular";
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+}
+.xactitude21 {
+    background-color: transparent;
+    height: auto;
+    left: 537px;
+    letter-spacing: 0px;
+    line-height: 117px;
+    position: absolute;
+    text-align: left;
+    top: 510px;
+    white-space: nowrap;
+    width: auto;
+    color: white;
+    font-family: "LEMONMILK-Medium";
+    font-size: 117px;
+    font-style: normal;
+    font-weight: 500;
+}
  .timer {
     background-color: transparent;
     height: auto;
@@ -214,14 +138,63 @@ body {
     font-style: normal;
     font-weight: 400;
 }
-.title {
-    background-color: var(--jacaranda);
-    border: 1px solid var(--dove-gray);
-    height: 1096px;
-    left: -21px;
+.animate-enter1 {
+    animation: animate-enter1-frames 1.2s ease 1s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(0, 150px);
+}
+@keyframes animate-enter1-frames {
+    from {
+    opacity: 0;
+    transform: translate(0, 150px);
+    }
+    to {
+    opacity: 1;
+    transform: translate(0, 0);
+    }
+}
+.register-box {
+    background-color: var(--cinnabar);
+    border-radius: 167px;
+    height: 196px;
+    left: 267px;
     position: absolute;
-    top: -19px;
-    width: 1952px;
+    top: 1300px;
+    width: 1408px;
+}
+.register {
+    background-color: transparent;
+    height: auto;
+    left: 538px;
+    letter-spacing: 0px;
+    line-height: 60px;
+    position: absolute;
+    text-align: left;
+    top: 68px;
+    white-space: nowrap;
+    width: auto;
+    color:white;
+    font-family: "LEMONMILK-Regular";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+}
+.animate-enter {
+    animation: animate-enter-frames 0.8s ease 0s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(-80px, 0);
+}
+@keyframes animate-enter-frames {
+    from {
+    opacity: 0;
+    transform: translate(-80px, 0);
+    }
+    to {
+    opacity: 1;
+    transform: translate(0, 0);
+    }
 }
 .update-box {
     background-color: white;
@@ -252,48 +225,71 @@ body {
     font-style: normal;
     font-weight: 400;
 }
-.xactitude21 {
+.event-box {
+    background-color: var(--soft-peach);
+    height: 1313px;
+    left: 0px;
+    position: absolute;
+    top: 2412px;
+    width: 1920px;
+}
+.event{
     background-color: transparent;
     height: auto;
-    left: 537px;
+    left: 806px;
     letter-spacing: 0px;
-    line-height: 117px;
+    line-height: 128px;
     position: absolute;
     text-align: left;
-    top: 510px;
+    top: 432px;
+    white-space: nowrap;
+    width: auto;
+    color: black;
+    font-family: "LEMONMILK-Light";
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.contact {
+    background-color: var(--jacaranda);
+    height: 66px;
+    left: 0px;
+    position: absolute;
+    top: 4275px;
+    width: 1920px;
+}
+.learn-more {
+    background-color: transparent;
+    height: auto;
+    left: 96px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    position: absolute;
+    text-align: left;
+    top: 18px;
     white-space: nowrap;
     width: auto;
     color: white;
-    font-family: "LEMONMILK-Medium";
-    font-size: 117px;
+    font-family: "LEMONMILK-Regular";
+    font-size: 32px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
 }
-
-:root {
-    --blaze-orange: rgba(255, 102, 0, 1);
-    --cinnabar: rgba(239, 54, 54, 1);
-    --dove-gray: rgba(112, 112, 112, 1);
-    --jacaranda: rgba(33, 0, 38, 1);
-    --soft-peach: rgba(242, 234, 239, 1);
-}
-@keyframes animate-enter-frames {
-    from {
-    opacity: 0;
-    transform: translate(-80px, 0);
-    }
-    to {
-    opacity: 1;
-    transform: translate(0, 0);
-    }
-}
-@keyframes animate-enter1-frames {
-    from {
-    opacity: 0;
-    transform: translate(0, 150px);
-    }
-    to {
-    opacity: 1;
-    transform: translate(0, 0);
-    }
+.contact-us {
+    background-color: transparent;
+    height: auto;
+    left: 1625px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    position: absolute;
+    text-align: left;
+    top: 18px;
+    white-space: nowrap;
+    width: auto;
+    color: white;
+    font-family: "LEMONMILK-Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
 }
