@@ -162,6 +162,8 @@ a, a:hover, a:active, a:focus, a:visited{
     .college-logo img{
         display: block;
         margin: 0 auto;
+        width: 90%;
+        height: auto;
     }
     .banner-right{
         display: block;
