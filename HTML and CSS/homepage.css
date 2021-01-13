@@ -38,8 +38,8 @@
 body {
     background-color: white;
     height: 4339px;
+    width:100%;
     position: relative;
-    width: 1920px;
 }
 .college-logo {
     background-color: transparent;
@@ -64,17 +64,15 @@ body {
     left: 0px;
     position: absolute;
     top: 4275px;
-    width: 1920px;
+    width: 100%;
 }
 .contact-us {
     background-color: transparent;
     height: auto;
-    left: 1625px;
-    letter-spacing: 0px;
-    line-height: 32px;
-    position: absolute;
+    right:20px;
+    position: relative;
     text-align: left;
-    top: 18px;
+    top: 15px;
     white-space: nowrap;
     width: auto;
     color: white;
@@ -82,6 +80,7 @@ body {
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
+    float: right;
 }
 .event{
     background-color: transparent;
@@ -112,7 +111,7 @@ body {
 .learn-more {
     background-color: transparent;
     height: auto;
-    left: 96px;
+    left: 20px;
     letter-spacing: 0px;
     line-height: 30px;
     position: absolute;
@@ -170,6 +169,7 @@ body {
     font-style: normal;
     font-weight: 400;
 }
+
 .sign-up-box {
     background-color: var(--blaze-orange);
     border-radius: 67px;
@@ -218,10 +218,9 @@ body {
     background-color: var(--jacaranda);
     border: 1px solid var(--dove-gray);
     height: 1096px;
-    left: -21px;
     position: absolute;
     top: -19px;
-    width: 1952px;
+    width:100%;
 }
 .update-box {
     background-color: white;
