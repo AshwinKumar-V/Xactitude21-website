@@ -5,357 +5,52 @@
   <title>XACTITUDE 2021</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="homepage.css">
-  <style>
-    @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-
-@font-face {
-  font-family: "SegoeUI-Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.animaapp.com/SegoeUI-Regular") format("truetype");
-}
-
-@font-face {
-  font-family: "LEMONMILK-Light";
-  font-style: normal;
-  font-weight: 300;
-  src: url("https://fonts.animaapp.com/LEMONMILK-Light") format("opentype");
-}
-
-@font-face {
-  font-family: "LEMONMILK-Medium";
-  font-style: normal;
-  font-weight: 500;
-  src: url("https://fonts.animaapp.com/LEMONMILK-Medium") format("opentype");
-}
-
-@font-face {
-  font-family: "LEMONMILK-Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.animaapp.com/LEMONMILK-Regular") format("opentype");
-}
-
-* {
-  box-sizing: border-box;
-}
-.animate-enter {
-  animation: animate-enter-frames 0.8s ease 0s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(-80px, 0);
-}
-.animate-enter1 {
-  animation: animate-enter1-frames 1.2s ease 1s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(0, 150px);
-}
-.lemonmilk-light-white-54px {
-  color: white;
-  font-family: "LEMONMILK-Light", Helvetica, Arial, serif;
-  font-size: 54px;
-  font-style: normal;
-  font-weight: 300;
-}
-.lemonmilk-medium-white-82px {
-  color: white;
-  font-family: "LEMONMILK-Medium", Helvetica, Arial, serif;
-  font-size: 82px;
-  font-style: normal;
-  font-weight: 500;
-}
-.lemonmilk-normal-white-63px {
-  color: white;
-  font-family: "LEMON MILK", Helvetica, Arial, serif;
-  font-size: 63px;
-}
-.lemonmilk-regular-normal-white-20px {
-  color: white;
-  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-}
-.lemonmilk-regular-normal-white-22px {
-  color: white;
-  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-}
-.lemonmilk-regular-normal-white-23px {
-  color: white;
-  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
-  font-size: 23px;
-  font-style: normal;
-  font-weight: 400;
-}
-.lemonmilk-regular-normal-white-42px {
-  color: white;
-  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
-  font-size: 42px;
-  font-style: normal;
-  font-weight: 400;
-}
-.segoeui-regular-normal-black-42px {
-  color: black;
-  font-family: "SegoeUI-Regular", Helvetica, Arial, serif;
-  font-size: 42px;
-  font-style: normal;
-  font-weight: 400;
-}
-.segoeui-regular-normal-black-90px {
-  color: black;
-  font-family: "SegoeUI-Regular", Helvetica, Arial, serif;
-  font-size: 90px;
-  font-style: normal;
-  font-weight: 400;
-}
-.web-1366-1 {
-  background-color: white;
-  height: 3081px;
-  overflow-x: hidden;
-  position: relative;
-  width: 1366px;
-}
-.web-1366-1 .college-logo {
-  left: 59px;
-  letter-spacing: 0px;
-  line-height: 54px;
-  position: absolute;
-  text-align: left;
-  top: 52px;
-  white-space: nowrap;
-}
-.web-1366-1 .contact {
-  background-color: var(--jacaranda);
-  height: 46px;
-  left: 7px;
-  position: absolute;
-  top: 3023px;
-  width: 1351px;
-}
-.web-1366-1 .contact-1 {
-  left: 1144px;
-  letter-spacing: 0px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 12px;
-  white-space: nowrap;
-}
-.web-1366-1 .event1 {
-  left: 567px;
-  letter-spacing: 0px;
-  line-height: 90px;
-  position: absolute;
-  text-align: left;
-  top: 304px;
-  white-space: nowrap;
-}
-.web-1366-1 .events {
-  background-color: var(--soft-peach);
-  height: 924px;
-  left: 7px;
-  position: absolute;
-  top: 1711px;
-  width: 1351px;
-}
-.web-1366-1 .learn-more {
-  left: 67px;
-  letter-spacing: 0px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  top: 12px;
-  white-space: nowrap;
-}
-.web-1366-1 .register {
-  background-color: white;
-  border: 1px solid var(--dove-gray);
-  border-radius: 167px;
-  height: 138px;
-  left: 195px;
-  position: absolute;
-  top: 2789px;
-  width: 991px;
-}
-.web-1366-1 .register-1 {
-  left: 420px;
-  letter-spacing: 0px;
-  line-height: 42px;
-  position: absolute;
-  text-align: left;
-  top: 47px;
-  white-space: nowrap;
-}
-.web-1366-1 .register-2 {
-  background-color: var(--cinnabar);
-  border: 1px solid var(--dove-gray);
-  border-radius: 167px;
-  display: block;
-  height: 234px;
-  left: 187px;
-  position: absolute;
-  top: 862px;
-  width: 991px;
-  opacity: 0;
-  transform: translate(0, 150px);
-}
-.web-1366-1 .register-3 {
-  left: 392px;
-  letter-spacing: 0px;
-  line-height: 42px;
-  position: absolute;
-  text-align: left;
-  top: 94px;
-  white-space: nowrap;
-}
-.web-1366-1 .sign-in {
-  left: 1177px;
-  letter-spacing: 0px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 71px;
-  white-space: nowrap;
-}
-.web-1366-1 .sign-up {
-  background-color: var(--blaze-orange);
-  border-radius: 67px;
-  height: 49px;
-  left: 1002px;
-  position: absolute;
-  top: 57px;
-  width: 141px;
-}
-.web-1366-1 .sign-up-1 {
-  left: 22px;
-  letter-spacing: 0px;
-  line-height: 23px;
-  position: absolute;
-  text-align: left;
-  top: 14px;
-  white-space: nowrap;
-}
-.web-1366-1 .span {
-  color: rgba(255, 255, 255, 1);
-  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
-  font-size: 63px;
-  font-style: normal;
-  font-weight: 400;
-}
-.web-1366-1 .span1 {
-  color: rgba(255, 102, 0, 1);
-  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
-  font-size: 63px;
-  font-style: normal;
-  font-weight: 400;
-}
-.web-1366-1 .timer {
-  left: 611px;
-  letter-spacing: 0px;
-  line-height: 63px;
-  position: absolute;
-  text-align: left;
-  top: 476px;
-  white-space: nowrap;
-}
-.web-1366-1 .title {
-  background-color: var(--jacaranda);
-  border: 1px solid var(--dove-gray);
-  height: 771px;
-  left: -8px;
-  position: absolute;
-  top: 0px;
-  width: 1374px;
-}
-.web-1366-1 .updates {
-  background-color: white;
-  border: 1px solid var(--dove-gray);
-  display: block;
-  height: 283px;
-  left: 163px;
-  position: absolute;
-  top: 1262px;
-  width: 1039px;
-  opacity: 0;
-  transform: translate(-80px, 0);
-}
-.web-1366-1 .updates-1 {
-  left: 309px;
-  letter-spacing: 0px;
-  line-height: 42px;
-  position: absolute;
-  text-align: left;
-  top: 119px;
-  white-space: nowrap;
-}
-.web-1366-1 .xactitude21 {
-  left: 377px;
-  letter-spacing: 0px;
-  line-height: 82px;
-  position: absolute;
-  text-align: left;
-  top: 358px;
-  white-space: nowrap;
-}
-:root {
-  --blaze-orange: rgba(255, 102, 0, 1);
-  --cinnabar: rgba(239, 54, 54, 1);
-  --dove-gray: rgba(112, 112, 112, 1);
-  --jacaranda: rgba(33, 0, 38, 1);
-  --soft-peach: rgba(242, 234, 239, 1);
-}
-@keyframes animate-enter-frames {
-  from {
-    opacity: 0;
-    transform: translate(-80px, 0);
-  }
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
-}
-@keyframes animate-enter1-frames {
-  from {
-    opacity: 0;
-    transform: translate(0, 150px);
-  }
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
-}
-
-  </style>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 </head>
 
 <body>
-<div class="web-1366-1">
-  <div class="title">
-    <div class="sign-up"><div class="sign-up-1 lemonmilk-regular-normal-white-23px">Sign Up</div></div>
-    <div class="sign-in lemonmilk-regular-normal-white-23px">Sign In</div>
-    <div class="college-logo lemonmilk-light-white-54px">College Logo</div>
-    <div class="xactitude21 lemonmilk-medium-white-82px">XACTITUDE 2021</div>
-    <div class="timer lemonmilk-normal-white-63px">
-      <span class="span">Tim</span><span class="span1">e</span><span class="span">r</span>
+
+    <div class="title">
+      <div class="college-logo">College Logo</div>
+
+      <div>
+      <a href="SignUp.html">
+        <div class="sign-up-box">
+            <div class="sign-up">Sign Up</div>
+        </div>
+      </a>
+      <a href="SignIn.html">
+        <div class="sign-in">Sign In</div>
+      </a>
     </div>
-  </div>
-  <div class="contact">
-    <div class="learn-more lemonmilk-regular-normal-white-20px">learn more</div>
-    <div class="contact-1 lemonmilk-regular-normal-white-22px">contact us</div>
-  </div>
-  <div class="register"><div class="register-1 segoeui-regular-normal-black-42px">Register</div></div>
-  <div class="events"><h1 class="event1 segoeui-regular-normal-black-90px">Event</h1></div>
-  <div class="updates animate-enter">
-    <div class="updates-1 segoeui-regular-normal-black-42px">Updates/ Notifications</div>
-  </div>
-  <div class="register-2 animate-enter1">
-    <div class="register-3 lemonmilk-regular-normal-white-42px">Register</div>
-  </div>
-</div>
+
+      <div class="xactitude21">XACTITUDE 2021</div>
+      <div class="timer">Timer</div>
+    </div>
+
+    <a href="Register.html">
+      <div class="register-box animate-enter1">
+        <div class="register">Register</div>
+      </div>
+    </a>
+
+    <div class="update-box animate-enter">
+      <div class="update">Updates/ Notifications</div>
+    </div>
+
+    <div class="event-box">
+      <h1 class="event">Event</h1>
+    </div>
+
+    <div class="contact">
+      <a href="About.html">
+        <div class="learn-more">learn more</div>
+      </a>
+      <a href="About.html#contact">
+        <div class="contact-us">contact us</div>
+      </a>
+    </div>
+
 </body>
+
 </html>
