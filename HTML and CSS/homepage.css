@@ -44,18 +44,14 @@ a, a:hover, a:active, a:focus, a:visited{
 .banner-right {
     display: flex;
 }
-.college-logo {
-    color: white;
-    font-family: "LEMONMILK-Light";
-    font-size: 77px;
-}
+
 .college-logo img{
-    height: 90px;
+    height: 80px;
 }
 .sign-up-box {
     background-color: var(--blaze-orange);
     border-radius: 67px;
-    margin-right: 40px;
+    margin: 20px 0;
     padding: 20px 35px;
 }
 .sign-up {
@@ -63,29 +59,30 @@ a, a:hover, a:active, a:focus, a:visited{
     color: white;
     white-space: nowrap;
     font-family: "LEMONMILK-Regular";
-    font-size: 33px;
+    font-size: 18px;
 }
 .sign-in {
     text-align: center;
     color: white;
     white-space: nowrap;
     font-family: "LEMONMILK-Regular";
-    font-size: 33px;
-    padding: 20px;
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 20px 35px;
 }
 .xactitude21 {
     text-align: center;
     color: white;
     font-family: "LEMONMILK-Medium";
-    font-size: 117px;
+    font-size: 72px;
     margin-top: 200px;
 }
  .timer {
     text-align: center;
     color: white;
     font-family:"LEMONMILK-Regular";
-    font-size: 91px;
-    margin: 100px;
+    font-size: 64px;
+    margin: 150px;
 }
 @keyframes register-box-anim {
     from {
@@ -100,7 +97,7 @@ a, a:hover, a:active, a:focus, a:visited{
 .register-box {
     background-color: var(--cinnabar);
     border-radius: 170px;
-    padding: 50px 0;
+    padding: 30px 0;
     margin: 150px 20%;
     animation: register-box-anim 1.2s ease;
 }
@@ -108,7 +105,7 @@ a, a:hover, a:active, a:focus, a:visited{
     text-align: center;
     color:white;
     font-family: "LEMONMILK-Regular";
-    font-size: 60px;
+    font-size: 32px;
 }
 @keyframes update-box-anim {
     from {
@@ -124,12 +121,12 @@ a, a:hover, a:active, a:focus, a:visited{
     animation: update-box-anim 0.8s ease 0s 1 normal forwards;
     border: 1px solid var(--dove-gray);
     margin: 100px 15%;
-    padding: 200px 0;
+    padding: 200px 20px;
 }
 .update {
     color: black;
     font-family: "LEMONMILK-Regular";
-    font-size: 60px;
+    font-size: 32px;
     text-align: center;
 }
 .event-box {
@@ -142,7 +139,7 @@ a, a:hover, a:active, a:focus, a:visited{
     white-space: nowrap;
     color: black;
     font-family: "LEMONMILK-Light";
-    font-size: 128px;
+    font-size: 64px;
     font-weight: 400;
 }
 
@@ -156,5 +153,21 @@ a, a:hover, a:active, a:focus, a:visited{
     white-space: nowrap;
     color: white;
     font-family: "LEMONMILK-Regular";
-    font-size: 32px;
+    font-size: 18px;
+}
+@media only screen and (max-width: 800px){
+    .banner{
+        display: block;
+    }
+    .college-logo img{
+        display: block;
+        margin: 0 auto;
+    }
+    .banner-right{
+        display: block;
+        margin: 30px 10%;
+    }
+    .xactitude21{
+        margin-top: 100px;
+    }
 }
