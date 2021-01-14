@@ -84,3 +84,21 @@ body{
     height:200px;
     padding:1em;
 }
+
+@media only screen and (min-width:786px){
+.event-btn{
+    font-size:30px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .event-btn{
+        font-size:50px;
+    }
+    .event-rules{
+        height:600px; 
+    }
+    .transaction{
+        height:500px;
+    }
+}
