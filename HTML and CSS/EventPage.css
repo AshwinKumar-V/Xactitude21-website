@@ -90,7 +90,7 @@ body {
 }
 .event-btn {
     font-family: "LEMONMILK-Medium";
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 200;
     padding: 1em 75px;
     margin:20px 5%;
@@ -162,6 +162,11 @@ body {
   font-weight: 900;
 }
 
+@media only screen and (max-width: 1024px){
+  .event-btn {
+      font-size: 24px;
+  }
+}
 @media only screen and (max-width: 700px){
   .event-rules, .transaction {
     padding: 100px 50px;
@@ -170,6 +175,7 @@ body {
       padding: 1em 0;
   }
   .event-btn {
+      font-size: 22px;
       padding: 1em 50px;
       margin: 10px 5px;
   }
