@@ -42,10 +42,6 @@ a, a:hover, a:active, a:focus, a:visited{
     padding: 40px;
     justify-content: space-between;
 }
-.banner-right {
-    display: flex;
-}
-
 .college-logo img{
     height: 80px;
 }
@@ -62,15 +58,6 @@ a, a:hover, a:active, a:focus, a:visited{
     font-family: "LEMONMILK-Regular";
     font-size: 18px;
 }
-.sign-in {
-    text-align: center;
-    color: white;
-    white-space: nowrap;
-    font-family: "LEMONMILK-Regular";
-    font-size: 18px;
-    margin: 20px 0;
-    padding: 20px 35px;
-}
 .xactitude21 {
     text-align: center;
     color: white;
@@ -83,7 +70,7 @@ a, a:hover, a:active, a:focus, a:visited{
     color: white;
     font-family:"LEMONMILK-Regular";
     font-size: 64px;
-    margin: 150px;
+    margin: 150px 0;
 }
 @keyframes register-box-anim {
     from {
@@ -156,21 +143,21 @@ a, a:hover, a:active, a:focus, a:visited{
     font-family: "LEMONMILK-Regular";
     font-size: 18px;
 }
-@media only screen and (max-width: 800px){
-    .banner{
+@media only screen and (max-width: 700px){
+    .banner {
         display: block;
     }
-    .college-logo img{
+    .college-logo img {
         display: block;
         margin: 0 auto;
         width: 90%;
         height: auto;
     }
-    .banner-right{
+    .banner-right {
         display: block;
         margin: 30px 10%;
     }
-    .xactitude21{
+    .xactitude21 , .timer {
         margin-top: 100px;
     }
 }
