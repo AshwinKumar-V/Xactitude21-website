@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: Verdana;
+    font-size: 18px;
+    width:calc(100%-2em);
+}
+
+.banner{
+    background-color: blue;
+    height:60px;
+    padding:1em;
+}
+.xactitude{
+    font-size: 30px;
+    font-weight:300;
+    color:white;
+    float:left;
+}
+.home{
+    font-size:18px;
+    font-weight: 200;
+    float:right;
+    text-align: left;
+    margin:10px;
+}
+.contact{
+    font-size:18px;
+    font-weight: 200;
+    float:right;
+    text-align: left;
+    color:white;
+}
+.events{
+    padding:2em;
+    text-align: center;
+}
+.events-title{
+    margin-bottom: 1em;
+    text-align: center;
+}
+.brochure{
+    margin-bottom: 1em;
+    padding:5px;
+    font-size: 16px;
+    float:right;
+}
+.event-btn{
+    height:auto;
+    width:auto;
+    font-size: 22px;
+    font-weight: 200;
+    padding:1em;
+    margin:10px 5px;
+}
+.event-rules{
+    text-align: center;
+    background-color: lightslategray;
+    margin:1em 0;
+    height:400px;
+    padding:1em;
+}
+.transaction{
+    text-align: center;
+    margin:1em 0;
+    height:400px;
+    padding:1em;
+}
+.register{
+    height:auto;
+    width:auto;
+    font-size: 22px;
+    font-weight: 200;
+    padding:1em;
+    margin:10px 5px;
+    padding:1em 4.5em;
+    text-align:center;
+}
+.contact-details{
+    background-color: blue;
+    height:200px;
+    padding:1em;
+}
