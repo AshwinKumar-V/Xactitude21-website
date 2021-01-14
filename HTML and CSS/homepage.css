@@ -41,10 +41,6 @@ a, a:hover, a:active, a:focus, a:visited{
     padding: 40px;
     justify-content: space-between;
 }
-.banner-right {
-    display: flex;
-}
-
 .college-logo img{
     height: 80px;
 }
@@ -60,15 +56,6 @@ a, a:hover, a:active, a:focus, a:visited{
     white-space: nowrap;
     font-family: "LEMONMILK-Regular";
     font-size: 18px;
-}
-.sign-in {
-    text-align: center;
-    color: white;
-    white-space: nowrap;
-    font-family: "LEMONMILK-Regular";
-    font-size: 18px;
-    margin: 20px 0;
-    padding: 20px 35px;
 }
 .xactitude21 {
     text-align: center;
@@ -155,7 +142,7 @@ a, a:hover, a:active, a:focus, a:visited{
     font-family: "LEMONMILK-Regular";
     font-size: 18px;
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 700px){
     .banner {
         display: block;
     }
