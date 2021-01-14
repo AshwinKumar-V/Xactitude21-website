@@ -1,213 +1,111 @@
 @font-face {
-    font-family: "LEMONMILK-Medium";
-    font-style: normal;
-    font-weight: 500;
-    src: url("Fonts/LEMONMILK-Medium.otf");
-}
-
-@font-face {
-    font-family: "LEMONMILK-Regular";
-    font-style: normal;
-    font-weight: 400;
-    src: url("Fonts/LEMONMILK-Regular.otf");
-}
-
-@font-face {
-    font-family: "LEMONMILK-Light";
-    font-style: normal;
-    font-weight: 300;
-    src: url("Fonts/LEMONMILK-Light.otf");
-}
-
-* {
-  box-sizing: border-box;
-}
-body {
-  background-color: white;
-  height: 4415px;
-  overflow-x: hidden;
-  position: relative;
-  width: 1920px;
-}
-.college {
-  background-color: transparent;
-  height: auto;
-  left: 565px;
-  letter-spacing: 0px;
-  line-height: 125px;
-  position: absolute;
-  text-align: left;
-  top: 2550px;
-  white-space: nowrap;
-  width: auto;
-  font-family: "LEMONMILK-Regular";
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 400;
-}
-.xactitude21 {
-  background-color: transparent;
-  height: auto;
-  left: 537px;
-  letter-spacing: 0px;
-  line-height: 117px;
-  position: absolute;
-  text-align: left;
-  top: 510px;
-  white-space: nowrap;
-  width: auto;
-  color: white;
   font-family: "LEMONMILK-Medium";
-  font-size: 117px;
   font-style: normal;
   font-weight: 500;
-}
-.sign-in {
-  background-color: transparent;
-  height: auto;
-  left: 1674px;
-  letter-spacing: 0px;
-  line-height: 33px;
-  position: absolute;
-  text-align: left;
-  top: 102px;
-  white-space: nowrap;
-  width: auto;
-  color: white;
-  font-family: "LEMONMILK-Regular";
-  font-size: 33px;
-  font-style: normal;
-  font-weight: 400;
-}
-.sign-up-box {
-  background-color: var(--blaze-orange);
-  border-radius: 67px;
-  height: 69px;
-  left: 1425px;
-  position: absolute;
-  top: 83px;
-  width: 200px;
-}
-.college-logo {
-  background-color: transparent;
-  height: auto;
-  left: 85px;
-  letter-spacing: 0px;
-  line-height: 77px;
-  position: absolute;
-  text-align: left;
-  top: 76px;
-  white-space: nowrap;
-  width: auto;
-  color: white;
-  font-family: "LEMONMILK-Light";
-  font-size: 77px;
-  font-style: normal;
-  font-weight: 300;
-}
-.sign-up {
-  background-color: transparent;
-  height: auto;
-  left: 31px;
-  letter-spacing: 0px;
-  line-height: 33px;
-  position: absolute;
-  text-align: left;
-  top: 18px;
-  white-space: nowrap;
-  width: auto;
-  color: white;
-  font-family: "LEMONMILK-Regular";
-  font-size: 33px;
-  font-style: normal;
-  font-weight: 400;
-}
-.title {
-  background-color: var(--jacaranda);
-  border: 1px solid var(--dove-gray);
-  height: 1096px;
-  left: -21px;
-  position: absolute;
-  top: -19px;
-  width: 1952px;
-}
-.contact-box {
-  background-color: var(--jacaranda);
-  height: 1125px;
-  left: 0px;
-  position: absolute;
-  top: 3290px;
-  width: 1920px;
-}
-.contact {
-  background-color: transparent;
-  height: auto;
-  left: 791px;
-  letter-spacing: 0px;
-  line-height: 69px;
-  position: absolute;
-  text-align: left;
-  top: 68px;
-  white-space: nowrap;
-  width: auto;
-  color: white;
-  font-family: "LEMONMILK-Regular", Helvetica, Arial, serif;
-  font-size: 69px;
-  font-style: normal;
-  font-weight: 400;
-}
-.dept-box {
-  background-color: var(--soft-peach);
-  height: 760px;
-  left: 0px;
-  position: absolute;
-  top: 1700px;
-  width: 1920px;
-}
-.dept {
-  background-color: transparent;
-  height: auto;
-  left: 480px;
-  letter-spacing: 0px;
-  line-height: 125px;
-  position: absolute;
-  text-align: left;
-  top: 318px;
-  white-space: nowrap;
-  width: auto;
-  font-family: "LEMONMILK-Regular";
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 400;
-}
-.fest {
-  background-color: transparent;
-  height: auto;
-  left: 662px;
-  letter-spacing: 0px;
-  line-height: 125px;
-  position: absolute;
-  text-align: left;
-  top: 1200px;
-  white-space: nowrap;
-  width: auto;
-  color: black;
-  font-family: "LEMONMILK-Regular";
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 400;
-}
-.home-icon {
-  background-color: transparent;
-  height: 65px;
-  left: 1840px;
-  position: absolute;
-  top:80px;
-  width: 55px;
+  src: url("Fonts/LEMONMILK-Medium.otf");
 }
 
+@font-face {
+  font-family: "LEMONMILK-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("Fonts/LEMONMILK-Regular.otf");
+}
+
+@font-face {
+  font-family: "LEMONMILK-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("Fonts/LEMONMILK-Light.otf");
+}
 :root {
   --blaze-orange: rgba(255, 102, 0, 1);
   --jacaranda: rgba(33, 0, 38, 1);
   --soft-peach: rgba(242, 234, 239, 1);
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  text-align: center;
+}
+a, a:hover, a:active, a:focus, a:visited{
+    text-decoration: none;
+}
+.title {
+    background-color: var(--jacaranda);
+    padding-bottom: 550px;
+}
+.banner {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+}
+.banner-right {
+  display: flex;
+}
+.college-logo img{
+  height: 80px;
+}
+.sign-up-box {
+  background-color: var(--blaze-orange);
+  border-radius: 67px;
+  margin: 20px 20px 0 0;
+  padding: 20px 35px;
+}
+.sign-up {
+  color: white;
+  font-family: "LEMONMILK-Regular";
+  font-size: 18px;
+}
+.home-icon {
+  height: 65px;
+  margin: 20px 0 0 20px;
+}
+.xactitude21 {
+  color: white;
+  font-family: "LEMONMILK-Medium";
+  font-size: 72px;
+  margin-top: 200px;
+}
+.heading {
+  font-family: "LEMONMILK-Regular";
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+.fest, .dept, .college, .contact {
+  padding: 200px 20%;
+  font-family: sans-serif;
+}
+.dept {
+  background-color: var(--soft-peach);
+}
+.contact {
+  background-color: var(--jacaranda);
+  color: white;
+}
+
+@media only screen and (max-width: 800px){
+  .title {
+    padding-bottom: 450px;
+  }
+  .banner {
+    display: block;
+  }
+  .college-logo img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+  }
+  .banner-right {
+    justify-content: center;
+    margin: 30px 10%;
+  }
+  .xactitude21 {
+    margin-top: 100px;
+    font-size: 64px;
+  }
+  .fest, .dept, .college, .contact {
+    padding: 200px 50px;
+  }
 }
