@@ -20,171 +20,45 @@
 }
 
 * {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: white;
-  height: 1081px;
-  overflow-x: hidden;
-  position: relative;
-  width: 1920px;
-}
-
-.create-new-account {
-  background-color: transparent;
-  height: auto;
-  left: 775px;
-  letter-spacing: 0px;
-  line-height: 30px;
-  position: absolute;
-  text-align: left;
-  top: 816px;
-  white-space: nowrap;
-  width: auto;
-  color: var(--ocean-blue-pearl);
-  font-family: "LEMONMILK-Regular";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-}
-.email-id-box {
-  background-color: transparent;
-  height: 140px;
-  left: 536px;
-  position: fixed;
-  top: 400px;
-  width: 847px;
-  font-size: large;
-
-}
-.email-id {
-  background-color: transparent;
-  height: auto;
-  left: 0px;
-  letter-spacing: 0px;
-  line-height: 40px;
-  position: absolute;
-  text-align: left;
-  top: 6px;
-  white-space: nowrap;
-  width: auto;
-  font-family: "LEMONMILK-Regular";
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-}
-.home-icon {
-  background-color: transparent;
-  height: 70px;
-  left: 59px;
-  position: fixed;
-  top: 47px;
-  width: 65px;
-}
-.line {
-  background-color: transparent;
-  height: 1px;
-  left: 0px;
-  position: absolute;
-  top: 140px;
-  width: 847px;
-}
-.password-box {
-  background-color: transparent;
-  height: 140px;
-  left: 536px;
-  position: fixed;
-  top: 606px;
-  width: 847px;
-}
-.password {
-  background-color: transparent;
-  height: auto;
-  left: 0px;
-  letter-spacing: 0px;
-  line-height: 40px;
-  position: absolute;
-  text-align: left;
-  top: 6px;
-  white-space: nowrap;
-  width: auto;
-  font-family: "LEMONMILK-Regular";
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-}
-.sign-btn-box {
-  background-color: transparent;
-  border: 5px solid var(--jacaranda);
-  border-radius: 58px;
-  height: 116px;
-  left: 739px;
-  position: absolute;
-  top: 879px;
-  width: 442px;
-}
-
-.sign-in {
-  background-color: transparent;
-  height: auto;
-  left: 751px;
-  letter-spacing: 0px;
-  line-height: 100px;
-  position: absolute;
-  text-align: left;
-  top: 100px;
-  white-space: nowrap;
-  width: auto;
-  color: black;
-  font-family: "LEMONMILK-Regular";
-  font-size: 120px;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.form-box{
-  background-color:transparent;
-  height: 80px;
-  position: absolute;
-  top: 60px;
-  width: 850px;
-  border-style: none;
-  color: black;
-  font-family: Arial;
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 400;
-  padding:30px;
-}
-
-.signInBtn{
-  background-color:transparent;
-  color: var(--blaze-orange);
-}
-.signInBtn:hover{
-  background-color:red;
-  color: white;
-  color: white;
-}
-.sign-btn{
-  font-family: "LEMONMILK-Regular";
-  font-size: 52px;
+  margin: 0px;
   text-align: center;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 110px;
-  top:-6px;
-  height: 118px;
-  left:-6px;
-  position: absolute;
-  width: 444px;
-  border-style: none;
-  border-radius: 58px;
+  box-sizing: border-box;
 }
 
 :root {
   --blaze-orange: rgba(255, 102, 0, 1);
   --jacaranda: rgba(33, 0, 38, 1);
   --ocean-blue-pearl: rgba(84, 65, 219, 1);
+}
+.title {
+  text-align: left;
+}
+.home-icon {
+  width: 65px;
+  margin: 20px;
+}
+.sign-in {
+  font-family: "LEMONMILK-Regular";
+  font-size: 72px;
+}
+ .gform {
+  position: relative;
+  margin: 50px auto;
+  width: 640px;
+  height: 1075px;
+  overflow: hidden;
+ }
+.gform iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+@media only screen and (max-width: 600px){
+    .gform {
+      width: 90%;
+      height: 1200px;
+    }
 }
