@@ -52,7 +52,7 @@ body{
     background-color: var(--jacaranda);
     color: white;
     display: flex;
-    padding: 20px;
+    padding: 10px 20px;
     justify-content: space-between;
 }
 .xactitude{
@@ -87,13 +87,13 @@ body{
   font-weight: 900;
 }
 .events {
-    padding: 2em;
+    padding: 1em;
 }
 .events-title {
     font-family: "LEMONMILK-Medium";
     font-size: 56px;
     font-weight: 700;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
 }
 .brochure {
     color: black;
@@ -113,29 +113,31 @@ body{
     font-family: "LEMONMILK-Medium";
     font-size: 28px;
     font-weight: 200;
-    padding: 1em 75px;
-    margin:20px 5%;
+    padding: 1em 10px;
+    margin:10px 5%;
     background: none;
     border: 1px solid black;
     border-radius: 20px;
+    width:30%
 }
-.event-btn:active{
+.event-btn:focus{
   color:var(--cinnabar);
+  outline: none;
 }
 
 .event-rules, .transaction {
-  padding: 100px 20%;
+  padding: 30px 20%;
   font-family: sans-serif;
   font-size: 20px;
   line-height: 1.25;
 }
 .event-rules {
     background-color: var(--soft-peach);
+    transition: 1s ease;
 }
 .heading {
     font-family: "LEMONMILK-Regular";
     font-size: 40px;
-    margin-bottom: 50px;
 }
 .register {
     color: black;
@@ -211,6 +213,7 @@ body{
     align-items: center;
     width: 100%;
     overflow-y: hidden;
+    transition:2s ease;
   }
 
     /* Hide the images by default */
@@ -221,7 +224,7 @@ body{
     /* Next & previous buttons */
     .prev, .next {
       cursor: pointer;
-      position: absolute; 
+      position: absolute;
       width: auto;
       margin-top: -22px;
       padding: 16px;
@@ -270,15 +273,16 @@ body{
       -webkit-animation-duration: 1.5s;
       animation-name: fade;
       animation-duration: 1.5s;
+      position: relative;
     }
 
     @-webkit-keyframes fade {
-      from {opacity: .4}
-      to {opacity: 1}
+      from {opacity: .4;left:-40px;}
+      to {opacity: 1;left:0px;}
     }
 
     @keyframes fade {
-      from {opacity: .4}
-      to {opacity: 1}
+      from {opacity: .4;left:-40px;}
+      to {opacity: 1;left:0px;}
     }
 
