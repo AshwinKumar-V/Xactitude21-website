@@ -159,30 +159,6 @@ a, a:hover, a:active, a:focus, a:visited{
     font-size: 18px;
 }
 
-@media only screen and (max-width: 700px){
-    .banner {
-        display: block;
-    }
-    .college-logo img {
-        display: block;
-        margin: 0 auto;
-        width: 90%;
-        height: auto;
-    }
-    .banner-right {
-        display: block;
-        margin: 10px 10%;
-    }
-    .register-box{
-        margin:20px 10%;
-    }
-    .xactitude21 , .timer {
-        margin:25px 20% ;
-        font-size:40px;
-    }
-    .update{
-        font-size: 12px;
-    }}
 
 .event-container .update-container{
     display: flex;
@@ -277,3 +253,40 @@ a, a:hover, a:active, a:focus, a:visited{
         transform: translate(0, 0);
         }
     }
+
+    @media only screen and (max-width: 700px){
+        .banner {
+            display: block;
+        }
+        .college-logo img {
+            display: block;
+            margin: 0 auto;
+            width: 90%;
+            height: auto;
+        }
+        .banner-right {
+            display: block;
+            margin: 10px 10%;
+        }
+        .register-box{
+            margin:2%;
+        }
+        .xactitude21 , .timer {
+            margin:25px 10% ;
+            font-size:40px;
+        }
+        .button1{
+            font-size: 14px;
+            margin:30px 5%;
+        }
+        .event-box{
+            margin-top: 5%;
+        }
+        .update{
+            font-size: 12px;
+        }
+        .prev, .next{
+            padding:8px;
+        }
+    }
+
