@@ -16,17 +16,7 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-function transition()
-{
-  i=0;
-  var timer=setInterval(() => {
-    scrollBy(0,31);
-    i++;
-    if(i==20){
-      clearInterval(timer);
-    }
-  }, 20);
-}
+
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("slides");
