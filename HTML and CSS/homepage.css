@@ -26,89 +26,117 @@
     --soft-peach: rgba(242, 234, 239, 1);
 }
 * {
+    z-index: 2;
     margin:0;
     box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
 }
 a, a:hover, a:active, a:focus, a:visited{
     text-decoration: none;
 }
 .title {
-    background-color: var(--jacaranda);
-    padding-bottom: 200px;
+    position:relative;
+    background-color: black;
+    padding-bottom: 50px;
 }
+
 .banner {
+    position:relative;
     display: flex;
-    padding: 40px;
+    padding: 20px;
     justify-content: space-between;
 }
 .college-logo img{
     height: 80px;
 }
 .sign-up-box {
-    background-color: var(--blaze-orange);
+    background-color:transparent;
     border-radius: 67px;
     margin: 20px 0;
     padding: 20px 35px;
+    color:blueviolet;
+}
+.sign-up-box:hover{
+    background-color: var(--blaze-orange);
+    color: white;
 }
 .sign-up {
     text-align: center;
-    color: white;
     white-space: nowrap;
     font-family: "LEMONMILK-Regular";
     font-size: 18px;
 }
 .xactitude21 {
-    text-align: center;
+    position:relative;
+    text-align: left;
     color: white;
     font-family: "LEMONMILK-Medium";
-    font-size: 72px;
-    margin-top: 200px;
+    font-size: 100px;
+    margin:10% 5% 4% 5%;
+    display: inline-block;
+    animation-name: fade2;
+    animation-duration: 2s;
 }
  .timer {
-    text-align: center;
+    text-align: left;
     color: white;
     font-family:"LEMONMILK-Regular";
-    font-size: 64px;
-    margin: 150px 0;
+    font-size: 50px;
+    margin-left: 5%;
+    animation-name: up;
+    animation-duration: 2s;
 }
-@keyframes register-box-anim {
-    from {
-    opacity: 0;
-    transform: translate(0, 150px);
-    }
-    to {
-    opacity: 1;
-    transform: translate(0, 0);
-    }
+.img1, .img2{
+    margin-top: -19px;
+    width:90%;
+    position: absolute;
+    z-index: 1;
+}
+.img2{
+    width:100%;
+    margin-top: -200px;
 }
 .register-box {
+    text-align: left;
+    position: relative;
+}
+.button1{
+    font-family: "LEMONMILK-Medium";
+    font-size: 28px;
+    font-weight: 200;
+    padding: 1em 10px;
+    margin:3% 5%;
+    background: none;
+    border-radius: 20px;
+    width:30%;
+    box-shadow:grey 2px 2px 4px;
+}
+.button1:hover{
     background-color: var(--cinnabar);
-    border-radius: 170px;
-    padding: 30px 0;
-    margin: 150px 20%;
-    animation: register-box-anim 1.2s ease;
+    border-style: none;
+    outline: none;
+    color: white;
 }
-.register {
-    text-align: center;
-    color:white;
-    font-family: "LEMONMILK-Regular";
-    font-size: 32px;
-}
-@keyframes update-box-anim {
-    from {
-    opacity: 0;
-    transform: translate(-80px, 0);
-    }
-    to {
-    opacity: 1;
-    transform: translate(0, 0);
-    }
+.button1:focus{
+    background-color: var(--jacaranda);
+    border-style: none;
+    outline: none;
+    color: white;
 }
 .update-box {
-    animation: update-box-anim 0.8s ease 0s 1 normal forwards;
-    border: 1px solid var(--dove-gray);
-    margin: 50px 15%;
-    padding: 8% 24%;
+    position: relative;
+    background-color: white;
+    border-style: none;
+    box-shadow: 8px 8px 12px gray;
+    margin: 200px 0;
+    padding: 8% 40%;
+    opacity:0.8;
+}
+.update-box:hover{
+   opacity:1;
+   margin:160px 0 240px 0;
 }
 .update {
     color: black;
@@ -116,12 +144,14 @@ a, a:hover, a:active, a:focus, a:visited{
     font-size: 32px;
     text-align: center;
     width:60%;
+    line-height: 100px;
 }
 .event-box {
-    background-color: var(--soft-peach);
+    background-color:white;
+    text-align: center;
     padding: 20px 50px;
-    margin: 1em 0;
-    transition: 1s ease;
+    margin: 5% 0;
+    position: relative;
 }
 .heading{
     text-align: center;
@@ -134,7 +164,7 @@ a, a:hover, a:active, a:focus, a:visited{
 
 .contact {
     background-color: var(--jacaranda);
-    padding: 30px;
+    padding: 10px 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -144,32 +174,14 @@ a, a:hover, a:active, a:focus, a:visited{
     font-family: "LEMONMILK-Regular";
     font-size: 18px;
 }
-@media only screen and (max-width: 700px){
-    .banner {
-        display: block;
-    }
-    .college-logo img {
-        display: block;
-        margin: 0 auto;
-        width: 90%;
-        height: auto;
-    }
-    .banner-right {
-        display: block;
-        margin: 30px 10%;
-    }
-    .xactitude21 , .timer {
-        margin-top: 100px;
-    }
-    .update{
-        font-size: 12px;
-    }
-}
+
+
 .event-container .update-container{
-    align-items: center;
+    display: flex;
     width: 100%;
     overflow-y: hidden;
     transition:2s ease;
+    align-items: center;
   }
 
     /* Hide the images by default */
@@ -182,7 +194,7 @@ a, a:hover, a:active, a:focus, a:visited{
         cursor: pointer;
         position: absolute;
         width: auto;
-        margin-top: -30%;
+        margin-top: -6%;
         padding: 16px;
         color: white;
         font-weight: bold;
@@ -240,5 +252,58 @@ a, a:hover, a:active, a:focus, a:visited{
     @keyframes fade {
       from {opacity: .4;left:-40px;}
       to {opacity: 1;left:0px;}
+    }
+
+    @keyframes fade2 {
+        from {left:-200px}
+        to {left:0}
+      }
+
+      @keyframes up {
+        from {
+        opacity: 0;
+        transform: translate(0, 150px);
+        }
+        to {
+        opacity: 1;
+        transform: translate(0, 0);
+        }
+    }
+
+    @media only screen and (max-width: 700px){
+        .banner {
+            display: block;
+        }
+        .college-logo img {
+            display: block;
+            margin: 0 auto;
+            width: 90%;
+            height: auto;
+        }
+        .banner-right {
+            display: block;
+            margin: 10px 10%;
+            width:5%;
+        }
+        .register-box{
+            margin:2%;
+        }
+        .xactitude21 , .timer {
+            margin:25px 10% ;
+            font-size:40px;
+        }
+        .button1{
+            font-size: 14px;
+            margin:30px 5%;
+        }
+        .event-box{
+            margin-top: 5%;
+        }
+        .update{
+            font-size: 12px;
+        }
+        .prev, .next{
+            padding:8px;
+        }
     }
 
