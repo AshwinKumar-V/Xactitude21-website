@@ -6,7 +6,7 @@ var timer1=setInterval(autoSlide1, 4000);
 
 function minusSlide(){
   clearInterval(timer);
-  slideIndex= slideIndex-2;
+  slideIndex = slideIndex - 2;
   if(slideIndex==-1){
     slideIndex=5;
   }
