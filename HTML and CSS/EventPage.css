@@ -96,44 +96,54 @@ body{
     margin-bottom: .5em;
 }
 .brochure {
-    color: black;
+    color: white;
     width: 7em;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 10px auto;
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 12px;
     font-family: "LEMONMILK-Medium";
-    background: none;
-    border: solid 2px black;
+    background-color: var(--jacaranda);
     border-radius: 20px;
 }
 .brochure:hover {
     background-color: var(--soft-peach);
+    color: black;
+}
+.brochure:active {
+  background-color: var(--cinnabar);
+  color: white;
 }
 .event-btn {
     font-family: "LEMONMILK-Medium";
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 200;
     padding: 1em 10px;
     margin:10px 5%;
     background: none;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px;
     width:30%
 }
+.event-btn-sub{
+font-size: 18px;
+}
+
 .event-btn:focus{
   color:var(--cinnabar);
   outline: none;
 }
 
-.event-rules, .transaction {
+.transaction {
   padding: 30px 20%;
   font-family: sans-serif;
   font-size: 20px;
   line-height: 1.25;
 }
 .event-rules {
-    background-color: var(--soft-peach);
-    transition: 1s ease;
+    text-align: center;
+    padding: 5% 0;
+    margin: 5% 0;
+    position: relative;
 }
 .heading {
     font-family: "LEMONMILK-Regular";
@@ -211,9 +221,8 @@ body{
 .event-container{
     display: flex;
     align-items: center;
-    width: 100%;
     overflow-y: hidden;
-    transition:2s ease;
+    padding: 5%;
   }
 
     /* Hide the images by default */
@@ -228,7 +237,7 @@ body{
       width: auto;
       margin-top: -22px;
       padding: 16px;
-      color: white;
+      color: grey;
       font-weight: bold;
       font-size: 18px;
       transition: 0.6s ease;
@@ -249,6 +258,7 @@ body{
     /* On hover, add a black background color with a little bit see-through */
     .prev:hover, .next:hover {
       background-color: rgba(0,0,0,0.8);
+      color: white;
     }
 
     /* The dots/bullets/indicators */
