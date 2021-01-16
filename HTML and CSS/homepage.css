@@ -96,6 +96,8 @@ a, a:hover, a:active, a:focus, a:visited{
     position: relative;
 }
 .button1{
+    color: black;
+    text-align: center;
     font-family: "LEMONMILK-Medium";
     font-size: 28px;
     font-weight: 200;
@@ -105,6 +107,7 @@ a, a:hover, a:active, a:focus, a:visited{
     border-radius: 20px;
     width:30%;
     box-shadow:grey 2px 2px 4px;
+    display: block;
 }
 .button1:hover{
     background-color: var(--cinnabar);
@@ -129,7 +132,6 @@ a, a:hover, a:active, a:focus, a:visited{
 }
 .update-box:hover{
    opacity:1;
-   margin:180px 0 220px 0;
 }
 .update {
     color: black;
@@ -145,14 +147,6 @@ a, a:hover, a:active, a:focus, a:visited{
     padding: 20px 50px;
     margin: 5% 0;
     position: relative;
-}
-.heading{
-    text-align: center;
-    white-space: nowrap;
-    color: black;
-    font-family: "LEMONMILK-Light";
-    font-size: 40px;
-    font-weight: 400;
 }
 
 .contact {
@@ -172,7 +166,7 @@ a, a:hover, a:active, a:focus, a:visited{
 .event-container .update-container{
     display: flex;
     overflow-y: hidden;
-    transition:2s ease;
+    transition: 2s ease;
     align-items: center;
   }
 
@@ -181,15 +175,14 @@ a, a:hover, a:active, a:focus, a:visited{
       display:none;
     }
 
-
     /* Next & previous buttons */
     .prev, .next {
         cursor: pointer;
         position: absolute;
         width: auto;
-        margin-top: -6%;
+        top: 50%;
         padding: 16px;
-        color: white;
+        color: black;
         font-weight: bold;
         font-size: 18px;
         transition: 0.6s ease;
@@ -209,6 +202,7 @@ a, a:hover, a:active, a:focus, a:visited{
 
     /* On hover, add a black background color with a little bit see-through */
     .prev:hover, .next:hover {
+      color: white;
       background-color: rgba(0,0,0,0.8);
     }
 
@@ -273,9 +267,9 @@ a, a:hover, a:active, a:focus, a:visited{
             width: 90%;
             height: auto;
         }
-        .banner-right {
+        .sign-up {
             display: block;
-            margin: 10px 10%;
+            margin: 20px auto;
             width:5%;
         }
         .register-box{
@@ -293,7 +287,7 @@ a, a:hover, a:active, a:focus, a:visited{
             margin-top: 5%;
         }
         .update{
-            font-size: 12px;
+            font-size: 22px;
         }
         .prev, .next{
             padding:8px;
