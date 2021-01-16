@@ -74,6 +74,7 @@ a, a:hover, a:active, a:focus, a:visited{
   font-family: sans-serif;
   font-size: 20px;
   line-height: 1.25;
+  text-align: justify;
 }
 .dept {
   background-color: var(--soft-peach);
@@ -137,5 +138,8 @@ a, a:hover, a:active, a:focus, a:visited{
   }
   .contact {
     padding: 15px;
+  }
+  .contact .links {
+    margin-top: 32px;
   }
 }
