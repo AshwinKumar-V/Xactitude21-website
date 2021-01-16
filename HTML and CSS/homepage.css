@@ -131,12 +131,12 @@ a, a:hover, a:active, a:focus, a:visited{
     border-style: none;
     box-shadow: 8px 8px 12px gray;
     margin: 200px 0;
-    padding: 8% 40%;
+    padding: 8% 40% 1% 40%;
     opacity:0.8;
 }
 .update-box:hover{
    opacity:1;
-   margin:160px 0 240px 0;
+   margin:180px 0 220px 0;
 }
 .update {
     color: black;
@@ -178,7 +178,6 @@ a, a:hover, a:active, a:focus, a:visited{
 
 .event-container .update-container{
     display: flex;
-    width: 100%;
     overflow-y: hidden;
     transition:2s ease;
     align-items: center;
@@ -188,6 +187,7 @@ a, a:hover, a:active, a:focus, a:visited{
     .slides .slide {
       display:none;
     }
+
 
     /* Next & previous buttons */
     .prev, .next {
