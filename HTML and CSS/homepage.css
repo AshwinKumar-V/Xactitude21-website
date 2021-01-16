@@ -51,22 +51,15 @@ a, a:hover, a:active, a:focus, a:visited{
 .college-logo img{
     height: 80px;
 }
-.sign-up-box {
-    background-color:transparent;
-    border-radius: 67px;
-    margin: 20px 0;
-    padding: 20px 35px;
-    color:blueviolet;
-}
-.sign-up-box:hover{
-    background-color: var(--blaze-orange);
-    color: white;
-}
 .sign-up {
+    margin: 20px;
     text-align: center;
     white-space: nowrap;
     font-family: "LEMONMILK-Regular";
     font-size: 18px;
+}
+.sign-up:hover {
+    color: var(--soft-peach);
 }
 .xactitude21 {
     position:relative;
