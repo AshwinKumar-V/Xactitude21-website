@@ -79,9 +79,6 @@ a, a:hover, a:active, a:focus, a:visited{
 .dept {
   background-color: var(--soft-peach);
 }
-.dept li {
-  text-align: left;
-}
 .contact {
   background-color: var(--jacaranda);
   font-family: "LEMONMILK-Regular";
@@ -141,5 +138,8 @@ a, a:hover, a:active, a:focus, a:visited{
   }
   .contact {
     padding: 15px;
+  }
+  .contact .links {
+    margin-top: 32px;
   }
 }
