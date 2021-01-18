@@ -6,6 +6,12 @@
 }
 
 @font-face {
+  font-family: "LEMONMILK-Bold";
+  font-style: normal;
+  src: url("Fonts/LEMONMILK-Bold.otf");
+}
+
+@font-face {
     font-family: "LEMONMILK-Regular";
     font-style: normal;
     font-weight: 400;
@@ -33,12 +39,39 @@
 .title {
   text-align: left;
 }
-.home-icon {
-  width: 65px;
-  margin: 20px;
-}
-.register {
+.banner{
   font-family: "LEMONMILK-Regular";
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+.xactitude{
+  font-size: 35px;
+  font-weight:400;
+  color:white;
+  float:left;
+}
+.banner-right {
+display: flex;
+}
+
+.home, .contct {
+  color:blueviolet;
+  font-family: "LEMONMILK-Regular";
+  font-size: 18px;
+  margin:15px;
+  text-decoration: none;
+}
+.home:hover, .contct:hover {
+  color:var(--soft-peach);
+  font-weight: 900;
+}
+
+.register {
+  margin: 5%;
+  font-family: "LEMONMILK-Bold";
   font-size: 72px;
 }
  .gform {

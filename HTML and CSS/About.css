@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: "LEMONMILK-Bold";
+  font-style: normal;
+  font-weight: 500;
+  src: url("Fonts/LEMONMILK-Bold.otf");
+}
+
+@font-face {
   font-family: "LEMONMILK-Regular";
   font-style: normal;
   font-weight: 400;
@@ -32,7 +39,7 @@ a, a:hover, a:active, a:focus, a:visited{
     text-decoration: none;
 }
 .title {
-    background-color: var(--jacaranda);
+    background-color:black;
     padding-bottom: 100px;
 }
 .banner {
@@ -47,7 +54,7 @@ a, a:hover, a:active, a:focus, a:visited{
   height: 80px;
 }
 .register, .home {
-  color: white;
+  color: blueviolet;
   font-family: "LEMONMILK-Regular";
   font-size: 18px;
   margin: 20px;
@@ -79,43 +86,64 @@ a, a:hover, a:active, a:focus, a:visited{
 .dept {
   background-color: var(--soft-peach);
 }
-.contact {
-  background-color: var(--jacaranda);
-  font-family: "LEMONMILK-Regular";
-  color: white;
-  padding: 15px;
-}
-.contact .heading {
-  font-size: 28px;
-  text-align: left;
-  margin-bottom: 20px;
-}
-.contact .details {
-  font-size: 16px;
-  text-align: left;
-}
-.contact .details big {
-  font-weight: 800;
-  font-size: large;
-  color: var(--soft-peach);
-}
-.contact .links {
-  width: 100px;
-  margin-left: auto;
-}
-.contact .link {
-  font-family: "LEMONMILK-Light";
-  color: white;
-  display: block;
-  text-align: right;
-  margin-bottom: 10px;
-}
-.contact .link:hover {
-  color:var(--soft-peach);
-  font-weight: 900;
+.col-image{
+  z-index: 1;
+  width:100%;
+  opacity: 0.3;
+  position:absolute;
+  left:0;
+  top:0;
 }
 
-@media only screen and (max-width: 800px){
+.contact-banner {
+  background-color: var(--jacaranda);
+  font-family: "LEMONMILK-Light";
+  color: white;
+  padding:25px;
+  position: relative;
+  z-index: 3;
+  opacity: 1;
+}
+
+.heading {
+  z-index: 3;
+  font-size:35px;
+  font-family: "LEMONMILK-Bold";
+  margin-bottom: 30px;
+  position: relative;
+  
+}
+.details {
+  z-index: 3;
+  font-size: 14px;
+  text-align: left;
+  position: relative;
+  margin-bottom: 10px;
+}
+.details big {
+  z-index: 3;
+  font-family: "LEMONMILK-Regular";
+  font-weight: 800;
+  font-size: 20px;
+  color: var(--soft-peach);
+  position: relative;
+}
+.links {
+  z-index: 3;
+  width: 100px;
+  position: relative;
+  text-align: right;
+  display: grid;
+  width: 100%;
+  justify-items: end;
+}
+.link-icon{
+  text-align: right;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 700px){
   .banner {
     display: block;
   }
@@ -130,16 +158,31 @@ a, a:hover, a:active, a:focus, a:visited{
     margin: 30px 10%;
   }
   .xactitude21 {
-    margin-top: 25px;
-    font-size: 64px;
+    margin-top: 10px;
+    font-size: 40px;
   }
   .fest, .dept, .college, .contact {
     padding: 100px 50px;
   }
-  .contact {
-    padding: 15px;
+  .contact{
+    padding:0 3%;
   }
-  .contact .links {
-    margin-top: 32px;
+  .details big{
+    font-size: 18px;
+  }
+  .details{
+    font-size: 14px;
+  }
+  .links{
+    padding-top: 8%;
+    justify-items: center;
+  }
+}
+@media only screen and (max-width: 400px){
+  .link-icon{
+    width:80%;
+  }
+  .mail{
+    width:90%;
   }
 }
