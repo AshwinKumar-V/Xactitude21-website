@@ -40,6 +40,8 @@ a, a:hover, a:active, a:focus, a:visited{
     position:relative;
     background-color: black;
     padding-bottom: 50px;
+    box-shadow:lightgray 4px 4px 8px;
+    box-shadow:grey 4px 4px 8px;
 }
 
 .banner {
@@ -83,15 +85,14 @@ a, a:hover, a:active, a:focus, a:visited{
     margin-bottom: 3%;
 }
 .img1, .img2{
-    margin-top: -19px;
-    width:90%;
+    width:100%;
     position: absolute;
     z-index: 1;
 }
 .img2{
-    width:100%;
-    margin-top: -200px;
+    margin-top: -220px;
 }
+
 .register-box {
     text-align: left;
     position: relative;
@@ -314,6 +315,9 @@ a, a:hover, a:active, a:focus, a:visited{
         }
         .slides img{
             width: 100%;
+        }
+        .img1, .img2{
+            margin-top: -10px;
         }
     }
 
