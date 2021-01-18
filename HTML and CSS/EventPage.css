@@ -49,15 +49,15 @@ body{
 
 
 .banner{
-    background-color: var(--jacaranda);
+    background-color: black;
     color: white;
     display: flex;
     padding: 10px 20px;
     justify-content: space-between;
 }
 .xactitude{
-    font-size: 30px;
-    font-weight:300;
+    font-size: 35px;
+    font-weight:400;
     color:white;
     float:left;
 }
@@ -153,69 +153,73 @@ font-size: 18px;
     color: black;
     font-family: "LEMONMILK-Medium";
     font-size: 24px;
-    width: 8em;
-    margin:0 auto 100px auto;
-    padding: 1em 4.5em;
+    width: 30%;
+    margin:8% 0;
+    padding: 2% 3%;
     background: none;
     border: 2px solid dimgray;
     border-radius: 48px;
+    outline: none;
+    text-align: center;
 }
 .register:hover {
     background-color:var(--soft-peach);
 }
-.contact {
-  background-color: var(--jacaranda);
-  font-family: "LEMONMILK-Regular";
-  color: white;
-  padding: 25px;
-}
-.contact .heading {
-  font-size: 28px;
-  text-align: left;
-  margin-bottom: 20px;
-}
-.contact .details {
-  font-size: 16px;
-  text-align: left;
-}
-.contact .details big {
-  font-weight: 800;
-  font-size: large;
-  color: var(--soft-peach);
-}
-.contact .links {
-  width: 100px;
-  margin-left: auto;
-}
-.contact .link {
-  font-family: "LEMONMILK-Light";
-  color: white;
-  display: block;
-  text-align: right;
-  margin-bottom: 10px;
-}
-.contact .link:hover {
-  color:var(--soft-peach);
-  font-weight: 900;
+.col-image{
+  z-index: 1;
+  width:100%;
+  opacity: 0.3;
+  position:absolute;
+  left:0;
+  top:0;
 }
 
-@media only screen and (max-width: 1024px){
-  .event-btn {
-      font-size: 24px;
-  }
+.contact-banner {
+  background-color: var(--jacaranda);
+  font-family: "LEMONMILK-Light";
+  color: white;
+  padding:25px;
+  position: relative;
+  z-index: 3;
+  opacity: 1;
 }
-@media only screen and (max-width: 700px){
-  .event-rules, .transaction {
-    padding: 50px 20px;
-  }
-  .events{
-      padding: 1em 0;
-  }
-  .event-btn {
-      font-size: 22px;
-      padding: 1em 50px;
-      margin: 10px 5px;
-  }
+
+.heading {
+  z-index: 3;
+  font-size:35px;
+  font-family: "LEMONMILK-Bold";
+  margin-bottom: 30px;
+  position: relative;
+  
+}
+.details {
+  z-index: 3;
+  font-size: 14px;
+  text-align: left;
+  position: relative;
+  margin-bottom: 10px;
+}
+.details big {
+  z-index: 3;
+  font-family: "LEMONMILK-Regular";
+  font-weight: 800;
+  font-size: 20px;
+  color: var(--soft-peach);
+  position: relative;
+}
+.links {
+  z-index: 3;
+  width: 100px;
+  position: relative;
+  text-align: right;
+  display: grid;
+  width: 100%;
+  justify-items: end;
+}
+.link-icon{
+  text-align: right;
+  position: relative;
+  margin-bottom: 5px;
 }
 
 .event-container{
@@ -296,3 +300,84 @@ font-size: 18px;
       to {opacity: 1;left:0px;}
     }
 
+    @media only screen and (max-width: 700px){
+      .banner {
+        display: block;
+      }
+      .banner{
+        padding:0 0 0 5%;
+      }
+      .banner-right {
+        justify-content: center;
+        margin:0;
+        padding: 1% 0;
+      }
+      .xactitude{
+       font-size: 22px;
+       padding-top: 2.5%;
+      }
+      .home, .contct{
+        font-size: 14px;
+      }
+      .brochure{
+        width: 40%;
+      }
+      .event-btn {
+          font-size: 16px;
+          padding: 2% 5%;
+          margin: 2%;
+          width:50%;
+      }
+      .register{
+        width: 50%;
+        padding: 5% 8%;
+        font-size: 20px;
+      }
+      .event-btn-sub{
+        font-size: 10px;
+      }
+      .contact{
+        padding:0 3%;
+      }
+      .details big{
+        font-size: 18px;
+      }
+      .details{
+        font-size: 14px;
+      }
+      .links{
+        padding-top: 8%;
+        justify-items: center;
+      }
+    }
+    @media only screen and (max-width: 450px){
+      .link-icon{
+        width:80%;
+      }
+      .xactitude{
+        font-size: 18px;
+      padding-top: 3%;
+       }
+       .home, .contct{
+         font-size: 12px;
+         margin-top: 6%;
+       }
+       .transaction{
+         font-size: 16px;
+       }
+      .mail{
+        width:90%;
+      }
+      .brochure{
+        font-size: 10px;
+      }
+      .heading{
+        font-size: 24px;
+      }
+      .register{
+        font-size: 20px;
+      }
+      .events-title{
+        font-size: 40px;
+      }
+    }

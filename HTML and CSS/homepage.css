@@ -76,10 +76,11 @@ a, a:hover, a:active, a:focus, a:visited{
     text-align: left;
     color: white;
     font-family:"LEMONMILK-Regular";
-    font-size: 50px;
+    font-size: 35px;
     margin-left: 5%;
     animation-name: up;
     animation-duration: 2s;
+    margin-bottom: 3%;
 }
 .img1, .img2{
     margin-top: -19px;
@@ -126,9 +127,10 @@ a, a:hover, a:active, a:focus, a:visited{
     position: relative;
     background-color: white;
     border-style: none;
+    text-align: center;
     box-shadow: 8px 8px 12px gray;
     margin: 200px 0;
-    padding: 8% 40% 1% 40%;
+    padding: 8% 0 1% 0;
     opacity:0.8;
 }
 .update-box:hover{
@@ -137,9 +139,8 @@ a, a:hover, a:active, a:focus, a:visited{
 .update {
     color: black;
     font-family: "LEMONMILK-Regular";
-    font-size: 32px;
-    text-align: center;
-    width:60%;
+    font-size: 20px;
+    width:100%;
     line-height: 100px;
 }
 .event-box {
@@ -168,7 +169,6 @@ a, a:hover, a:active, a:focus, a:visited{
     display: flex;
     overflow-y: hidden;
     transition: 2s ease;
-    align-items: center;
   }
 
     /* Hide the images by default */
@@ -276,14 +276,28 @@ a, a:hover, a:active, a:focus, a:visited{
         .sign-up {
             display: block;
             margin: 20px auto;
-            width:5%;
+            width:30%;
+            background-color: var(--cinnabar);
+            border-radius: 20px;
+            padding:5px;
+            color: white;
+        }
+        .update-box{
+            margin: 50px 0;
+            opacity: 1;
         }
         .register-box{
-            margin:2%;
+            margin: 10% 0;
+        }
+        .button1{
+            margin: 0% 10%;
         }
         .xactitude21 , .timer {
-            margin:25px 10% ;
-            font-size:40px;
+            margin:25px 8% ;
+            font-size:60px;
+        }
+        .timer{
+            font-size: 30px;
         }
         .button1{
             font-size: 18px;
@@ -300,6 +314,37 @@ a, a:hover, a:active, a:focus, a:visited{
         }
         .slides img{
             width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 450px){
+        .college-logo img {
+            width: 80%;
+        }
+        .sign-up {
+            width:40%;
+            border-radius: 10px;
+        }
+        .xactitude21 , .timer {
+            font-size:35px;
+        }
+        .timer{
+            font-size: 20px;
+        }
+        .button1{
+            border-radius: 15px;
+            font-size: 14px;
+            margin:5%;
+        }
+        .event-box{
+            margin: 2% 0;
+        }
+        .update{
+            font-size: 14px;
+        }
+        .dot{
+            width:5px;
+            height:5px;
         }
     }
 
