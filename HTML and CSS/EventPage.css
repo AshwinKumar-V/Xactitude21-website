@@ -87,9 +87,12 @@ body{
   font-weight: 900;
 }
 .events {
+  z-index: 2;
     padding: 1em;
+    position: relative;
 }
 .events-title {
+  z-index: 2;
     font-family: "LEMONMILK-Medium";
     font-size: 56px;
     font-weight: 700;
@@ -119,8 +122,10 @@ body{
     font-weight: 200;
     padding: 1em 10px;
     margin:10px 5%;
-    background: none;
-    border: 2px solid black;
+    background: white;
+    opacity: 0.8;
+    box-shadow:lightgray 4px 4px 8px;
+    box-shadow:grey 4px 4px 8px;
     border-radius: 20px;
     width:30%
 }
@@ -144,6 +149,12 @@ font-size: 18px;
     padding: 5% 0;
     margin: 5% 0;
     position: relative;
+}
+.img1{
+  width:100%;
+  position: absolute;
+  z-index: 1;
+  left:0;
 }
 .heading {
     font-family: "LEMONMILK-Regular";
