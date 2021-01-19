@@ -54,14 +54,13 @@ a, a:hover, a:active, a:focus, a:visited{
   height: 80px;
 }
 .register, .home {
-  color: blueviolet;
+  color:var(--soft-peach);
   font-family: "LEMONMILK-Regular";
   font-size: 18px;
   margin: 20px;
 }
 
 .register:hover, .home:hover {
-  color:var(--soft-peach);
   font-weight: 900;
 }
 
