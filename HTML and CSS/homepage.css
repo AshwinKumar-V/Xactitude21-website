@@ -54,14 +54,15 @@ a, a:hover, a:active, a:focus, a:visited{
     height: 80px;
 }
 .sign-up {
+    color: var(--soft-peach);
     margin: 20px;
     text-align: center;
     white-space: nowrap;
     font-family: "LEMONMILK-Regular";
-    font-size: 18px;
+    font-size: 20px;
 }
 .sign-up:hover {
-    color: var(--soft-peach);
+    color: blueviolet;
 }
 .xactitude21 {
     position:relative;
@@ -283,6 +284,9 @@ a, a:hover, a:active, a:focus, a:visited{
             padding:5px;
             color: white;
         }
+        .sign-up:hover{
+            color: var(--jacaranda);
+        }
         .update-box{
             margin: 50px 0;
             opacity: 1;
@@ -300,6 +304,7 @@ a, a:hover, a:active, a:focus, a:visited{
         .timer{
             font-size: 30px;
         }
+        
         .button1{
             font-size: 18px;
             margin:30px 5%;
