@@ -54,6 +54,7 @@ a, a:hover, a:active, a:focus, a:visited{
     height: 80px;
 }
 .sign-up {
+    color: var(--soft-peach);
     margin: 20px;
     text-align: center;
     white-space: nowrap;
@@ -61,7 +62,7 @@ a, a:hover, a:active, a:focus, a:visited{
     font-size: 18px;
 }
 .sign-up:hover {
-    color: var(--soft-peach);
+    font-weight: 900;
 }
 .xactitude21 {
     position:relative;
