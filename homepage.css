@@ -62,6 +62,7 @@ a, a:hover, a:active, a:focus, a:visited{
     font-size: 20px;
 }
 .sign-up:hover {
+    color:blueviolet;
     font-weight: 1000;
 }
 .xactitude21 {
