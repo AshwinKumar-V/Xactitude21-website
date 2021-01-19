@@ -62,8 +62,7 @@ a, a:hover, a:active, a:focus, a:visited{
     font-size: 20px;
 }
 .sign-up:hover {
-    color:var(--jacaranda);
-    font-weight: 900;
+    font-weight: 1000;
 }
 .xactitude21 {
     position:relative;
