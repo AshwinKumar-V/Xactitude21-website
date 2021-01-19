@@ -128,6 +128,9 @@ a, a:hover, a:active, a:focus, a:visited{
   color: var(--soft-peach);
   position: relative;
 }
+.details a {
+  color: inherit;
+}
 .links {
   z-index: 3;
   width: 100px;

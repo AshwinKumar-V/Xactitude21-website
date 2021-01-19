@@ -218,6 +218,9 @@ font-size: 18px;
   color: var(--soft-peach);
   position: relative;
 }
+.details a {
+  color: inherit;
+}
 .links {
   z-index: 3;
   width: 100px;
