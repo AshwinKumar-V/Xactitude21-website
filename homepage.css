@@ -36,9 +36,24 @@ body{
 a, a:hover, a:active, a:focus, a:visited{
     text-decoration: none;
 }
+.img3{
+    width: 65%;
+    margin-top: 5%;
+    opacity: .6;
+    height: auto;
+    margin-left: 20%;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    
+}
 .title {
     position:relative;
+    background-image: url("images/anim.gif");
+    background-position-y: 30%;
+    background-size: cover;
     background-color: black;
+    text-align: center;
     padding-bottom: 50px;
     box-shadow:lightgray 4px 4px 8px;
     box-shadow:grey 4px 4px 8px;
@@ -77,7 +92,7 @@ a, a:hover, a:active, a:focus, a:visited{
     animation-duration: 2s;
 }
  .timer {
-    text-align: left;
+    text-align: center;
     color: white;
     font-family:"LEMONMILK-Regular";
     font-size: 35px;
@@ -125,6 +140,15 @@ a, a:hover, a:active, a:focus, a:visited{
     border-style: none;
     outline: none;
     color: white;
+}
+.about{
+    position: absolute;
+    font-size: 35px;
+    font-family: sans-serif;
+    background-color: white;
+
+    padding: 5%;
+    top: 0;
 }
 .update-box {
     position: relative;
@@ -358,3 +382,64 @@ a, a:hover, a:active, a:focus, a:visited{
         }
     }
 
+.contact-bannerc {
+        background-color: var(--jacaranda);
+        font-family: "LEMONMILK-Light";
+        color: white;
+        padding:25px;
+        position: relative;
+        z-index: 3;
+        opacity: 1;
+        overflow: hidden;
+}
+    
+.col-imagec{
+        z-index: 1;
+        height:120%;
+        opacity: 0.3;
+        position:absolute;
+        left:0;
+        top:0;
+        width: 100%;
+}
+@media only screen and(max-width:700px){
+    .contactc{
+        padding:0 3%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .link-iconc{
+      width:80%;
+    }
+    .mailc{
+      width:90%;
+    }
+}
+
+.headingc {
+    z-index: 3;
+    font-size:35px;
+    font-family: "LEMONMILK-Bold";
+    margin-bottom: 30px;
+    position: relative;
+    
+}
+.detailsc {
+    z-index: 3;
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+    margin-bottom: 10px;
+}
+.detailsc big {
+    z-index: 3;
+    font-family: "LEMONMILK-Regular";
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--soft-peach);
+    position: relative;
+}
+.detailsc a {
+    color: inherit;
+}
