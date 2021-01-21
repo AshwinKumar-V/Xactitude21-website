@@ -39,7 +39,10 @@ a, a:hover, a:active, a:focus, a:visited{
 .title {
     text-align: center;
     position:relative;
-    background-color: black;
+   background-image: url("images/img4.gif");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   overflow-y: hidden;
     padding-bottom: 50px;
     box-shadow:lightgray 4px 4px 8px;
     box-shadow:grey 4px 4px 8px;
