@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>XACTITUDE 2021</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="MainPage.css">
+  <script src="MainPage.js"></script>
+</head>
+
+<body onload="autoSlide();autoSlide1()">
+      <div class="smooth">
+        <div class="header">
+          <ul>
+            <li><img src="images/new KJC logo.png" class="kjc-logo"></li>
+            <li><a href="#home">home</a></li>
+            <li><a href="#updates">updates</a></li>
+            <li><a href="#events">events</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </div>
+
+
+        <section id="home">
+            <img src="images/xactitude logo2.png" alt="logo" class="img1">
+            <div class="timer" id="timer">Timer</div>
+        </section>
+
+        <section id="about">
+            <div class="about-xactitude">
+                <div class="left">
+                <h1>About Xactitude</h1>
+            <p>Xactitude is an Annual Science and Technology festival organized by the Department of Computer Science (UG) of Kristu
+            Jayanti College. It is one such platform where young brains get to showcase their skills and compete with each others to
+            exhibit the best version of themselves. It is an event where new ideas are seen live. Year after year, Xactitude
+            explores various aspects of science and technology and the profound impacts they have on our lives. It has constantly
+            grown, evolved, and pushed the boundaries of what a college fest can be. With something to offer for everyone, Xactitude
+            is an ideal destination for all technophiles to witness, learn and experience the wonders of science and technology.
+        </p><p>
+            Boasting of a huge roster of exciting and engaging events, this edition of Xactitude promises to be grander, greater and
+            more glorious than ever before.
+        </p></div>
+
+        <div class="right">
+            <img src="images/new KJC logo.png" class="img2">
+        </div>
+    </div>
+        </section>
+
+        <section id="updates">
+                <div class="update-container">
+
+                  <div class="slide fade">
+                    <div class="update">Update 1</div>
+                  </div>
+
+                  <div class="slide fade">
+                    <div class="update">Update 2</div>
+                  </div>
+
+                  <div class="slide fade">
+                    <div class="update">Update 3</div>
+                  </div>
+
+                  <div class="slide fade">
+                    <div class="update">Update 4</div>
+                  </div>
+
+                  <!-- Next and previous buttons -->
+                  <a class="prev" onclick="minus()">&#10094;</a>
+                  <a class="next" onclick="plus()">&#10095;</a>
+                </div>
+                <!-- Dots at the bottom -->
+                <div style="text-align:center">
+                  <span class="dot" onclick="updateSlide(1)"></span>
+                  <span class="dot" onclick="updateSlide(2)"></span>
+                  <span class="dot" onclick="updateSlide(3)"></span>
+                  <span class="dot" onclick="updateSlide(4)"></span>
+                </div>
+        </section>
+
+        <section id="about">
+            <div class="about-college">
+                <div class="left">
+                    <img src="images/new KJC logo.png" class="img2">
+                </div>
+
+        <div class="right">
+            <h1>About Kristu Jayanti College</h1>
+            <p>Kristu Jayanti College, founded in 1999, is managed by "BODHI NIKETAN TRUST", formed by the members of St. Joseph
+            Province of the Carmelites of Mary Immaculate (CMI). The College is affiliated to Bengaluru North University and is
+            reaccredited with grade 'A' in 2015 by NAAC in the Second Cycle of Accreditation. The College is recognized by UGC under
+            the category 2(f) & 12(B). The College was accorded Autonomous Status from 2013 by the University Grants Commission,
+            Government of Karnataka & the Bangalore University. For its contribution in the field of Education, Kristu Jayanti
+            College was recently given the Heroes of Bengaluru award. In the India Today - MDRA survey 2020, Kristu Jayanti College,
+            Bengaluru is awarded as the Best Emerging College of the Century at National Level and the college is ranked 4th Best
+            BCA, 11th Best MSW, 18th Best Arts, 19th Best Commerce, 19th Best BBA and 25th Best Science College in India. The
+            College also ranked 2nd Best in BCA & MSW, 3rd best in Commerce & Arts, 4th Best in Science and 5th best in BBA among
+            the colleges in Bengaluru.
+        </p>
+        </div>
+    </div>
+        </section>
+
+        <section id="events">
+            <div class="event-box">
+                <h1>Events</h1>
+            <div class="event-container">
+
+                <div class="slides fade">
+                <img src="images/Coding event.png">
+                </div>
+
+                <div class="slides fade">
+                <img src="images/math event.png">
+                </div>
+
+                <div class="slides fade">
+                <img src="images/physics event.png">
+                </div>
+
+                <div class="slides fade">
+                    <img src="images/Stats event.png">
+                </div>
+
+                <div class="slides fade">
+
+                    <img src="images/IT quiz.png">
+
+                </div>
+
+                <div class="slides fade">
+                    <img src="images/electronics event.png">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="minusSlide()">&#10094;</a>
+                <a class="next" onclick="plusSlide()">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+        </div>
+
+        </section>
+
+        <section id="contact">
+            <div class="contact-banner">
+                <img src="images/college.jpg" alt="college image"  class="col-image">
+                <div class="contact" id="contact">
+                    <div class="heading">Contact Details</div>
+                    <div class="details">
+                        <big>Staff - Coordinators</big> <br>
+                        Dr. K Kalaiselvi <br> Dr. Dalvin Vinoth Kumar <br>
+                        <a href="tel:9952533606">
+                          Ph: 9952533606 <br> <br>
+                        </a>
+                        <big>Student - Coordinators</big> <br>
+                        Ms. Sidhi Agarwal <br> Mr. Ashwin Kumar V <br>
+                        <a href="tel:9148827639">
+                          Ph: 9148827639 <br> <br>
+                        </a>
+                        <big>Kristu Jayanti College (autonomous)</big> <br>
+                        K. Narayanapur, Kothanur P.O<br> Bangalore 560077, Karnataka, India <br>
+                </div>
+              </div>
+            
+                <div class="links">
+                    <a href="#" >
+                      <img src="icons/facebook-icon.png" class="link-icon"></a>
+            
+                    <a href="#" >
+                      <img src="icons/insta-icon.png" class="link-icon"></a>
+            
+                    <a href="mailto:computeracademy@kristujayanti.com" >
+                      <img src="icons/mail-icon.png"  class="link-icon mail"></a>
+                </div>
+              </div>
+        </section>
+
+      </div>
+</body>
+</html>
