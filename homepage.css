@@ -37,6 +37,7 @@ a, a:hover, a:active, a:focus, a:visited{
     text-decoration: none;
 }
 .title {
+    text-align: center;
     position:relative;
     background-color: black;
     padding-bottom: 50px;
@@ -67,21 +68,15 @@ a, a:hover, a:active, a:focus, a:visited{
 }
 .xactitude21 {
     position:relative;
-    text-align: left;
-    color: white;
-    font-family: "LEMONMILK-Medium";
-    font-size: 100px;
-    margin:10% 5% 4% 5%;
-    display: inline-block;
+    margin:8% 5% 0 5%;
+    width:70%;
     animation-name: fade2;
     animation-duration: 2s;
 }
  .timer {
-    text-align: left;
     color: white;
     font-family:"LEMONMILK-Regular";
     font-size: 35px;
-    margin-left: 5%;
     animation-name: up;
     animation-duration: 2s;
     margin-bottom: 3%;

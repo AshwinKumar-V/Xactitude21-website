@@ -55,11 +55,8 @@ body{
     padding: 10px 20px;
     justify-content: space-between;
 }
-.xactitude{
-    font-size: 35px;
-    font-weight:400;
-    color:white;
-    float:left;
+.xactitude21{
+   width: 15%;
 }
 .banner-right {
   display: flex;
