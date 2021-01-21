@@ -69,10 +69,8 @@ a, a:hover, a:active, a:focus, a:visited{
 }
 
 .xactitude21 {
-  color: white;
-  font-family: "LEMONMILK-Medium";
-  font-size: 64px;
-  margin-top: 50px;
+  width: 35%;
+  margin-top: 3%;
 }
 .heading {
   font-family: "LEMONMILK-Regular";
