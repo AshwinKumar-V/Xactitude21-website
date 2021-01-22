@@ -164,8 +164,7 @@ a, a:hover, a:active, a:focus, a:visited{
     margin: 30px 10%;
   }
   .xactitude21 {
-    margin-top: 10px;
-    font-size: 40px;
+    width:75%;
   }
   .fest, .dept, .college, .contact {
     padding: 100px 50px;
@@ -190,5 +189,8 @@ a, a:hover, a:active, a:focus, a:visited{
   }
   .mail{
     width:90%;
+  }
+  .xactitude21{
+    width: 65%;
   }
 }
