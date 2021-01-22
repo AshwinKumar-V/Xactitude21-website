@@ -39,7 +39,8 @@ a, a:hover, a:active, a:focus, a:visited{
 .title {
     text-align: center;
     position:relative;
-   background-image: url("images/img4.gif");
+    background-color: black;
+   /* background-image: url("images/img4.gif"); */
    background-repeat: no-repeat;
    background-size: 100%;
    overflow-y: hidden;
@@ -73,6 +74,7 @@ a, a:hover, a:active, a:focus, a:visited{
     position:relative;
     margin:8% 5% 0 5%;
     width:70%;
+    height: auto;
     animation-name: fade2;
     animation-duration: 2s;
 }
