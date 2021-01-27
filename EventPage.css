@@ -146,6 +146,10 @@ font-size: 18px;
   font-size: 25px;
   text-align: left;
 }
+.listitems div{
+  text-align: left;
+  margin: 0 20%;
+}
 
 .event-rules {
     text-align: center;
@@ -324,6 +328,9 @@ font-size: 18px;
       }
       .event-btn-sub{
         font-size: 16px;
+      }
+      .listitems div {
+        margin: 0;
       }
     }
 
